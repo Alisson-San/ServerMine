@@ -1,0 +1,81 @@
+{
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
+    "criteria": {
+      "in_catacombs": "2024-08-21 18:14:17 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:regions_explored": {
+    "criteria": {
+      "old_growth_bayou": "2024-08-21 18:14:17 -0300"
+    },
+    "done": false
+  },
+  "mffs:grant_book_on_first_join": {
+    "criteria": {
+      "guidebook": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "the_bumblezone:root": {
+    "criteria": {
+      "instant_granted": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "theurgy:book_root": {
+    "criteria": {
+      "theurgy_present": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "the_bumblezone:wiki": {
+    "criteria": {
+      "instant_granted": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "repurposed_structures:root": {
+    "criteria": {
+      "always": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:pioneer": {
+    "criteria": {
+      "old_growth_bayou": "2024-08-21 18:14:17 -0300"
+    },
+    "done": false
+  },
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "modern_industrialization:guidebook": {
+    "criteria": {
+      "logged_in": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "occultism:occultism/root": {
+    "criteria": {
+      "occultism_present": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "irons_spellbooks:grant_patchouli": {
+    "criteria": {
+      "tick": "2024-08-21 18:14:16 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:parent": {
+    "criteria": {
+      "load_in_world": "2024-08-21 18:14:17 -0300"
+    },
+    "done": true
+  },
+  "DataVersion": 3955
+}
