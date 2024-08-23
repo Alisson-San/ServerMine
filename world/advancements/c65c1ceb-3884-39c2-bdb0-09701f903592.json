@@ -186,7 +186,8 @@
   "regions_unexplored:got_wood": {
     "criteria": {
       "cypress_log": "2024-08-22 21:59:27 +0000",
-      "pine_log": "2024-08-23 01:42:56 +0000"
+      "pine_log": "2024-08-23 01:42:56 +0000",
+      "blackwood_log": "2024-08-23 16:04:08 +0000"
     },
     "done": false
   },
@@ -315,6 +316,7 @@
       "minecraft:piglin_brute": "2024-08-23 02:36:05 +0000",
       "minecraft:spider": "2024-08-23 01:06:49 +0000",
       "minecraft:zombie": "2024-08-23 01:06:19 +0000",
+      "minecraft:creeper": "2024-08-23 14:45:19 +0000",
       "minecraft:zombie_villager": "2024-08-23 01:13:31 +0000"
     },
     "done": false
@@ -415,45 +417,33 @@
     },
     "done": true
   },
-  "croptopia:gather_food": {
-    "criteria": {
-      "glowing_calamari": "2024-08-23 04:41:41 +0000"
-    },
-    "done": false
-  },
   "pneumaticcraft:advanced_pressure_tube": {
     "criteria": {
       "0": "2024-08-23 00:36:17 +0000"
     },
     "done": true
   },
-  "mekanism:advanced_control_circuit": {
+  "pneumaticcraft:amadron_tablet": {
     "criteria": {
-      "advanced_control_circuit": "2024-08-23 04:53:13 +0000"
+      "0": "2024-08-23 00:36:50 +0000"
     },
     "done": true
   },
-  "minecraft:nether/brew_potion": {
+  "minecraft:husbandry/plant_seed": {
     "criteria": {
-      "potion": "2024-08-23 03:06:14 +0000"
+      "wheat": "2024-08-23 00:39:00 +0000"
     },
     "done": true
   },
-  "mekanism:basic_control_circuit": {
+  "farmersdelight:main/plant_all_crops": {
     "criteria": {
-      "basic_control_circuit": "2024-08-23 04:53:08 +0000"
+      "wheat": "2024-08-23 00:39:00 +0000"
     },
-    "done": true
+    "done": false
   },
-  "minecraft:nether/root": {
+  "mekanism:infused_alloy": {
     "criteria": {
-      "entered_nether": "2024-08-23 02:22:38 +0000"
-    },
-    "done": true
-  },
-  "mekanism:disassembler": {
-    "criteria": {
-      "atomic_disassembler": "2024-08-23 03:07:48 +0000"
+      "alloy_infused": "2024-08-23 00:50:16 +0000"
     },
     "done": true
   },
@@ -463,45 +453,39 @@
     },
     "done": true
   },
-  "mekanism:energy_transport": {
+  "mekanism:infusing_efficiency": {
     "criteria": {
-      "basic_universal_cable": "2024-08-23 04:53:23 +0000"
+      "enriched_material": "2024-08-23 00:50:26 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:wind_generator": {
+    "criteria": {
+      "wind_generator": "2024-08-23 00:54:54 +0000"
+    },
+    "done": true
+  },
+  "mffs:smelt_steel": {
+    "criteria": {
+      "has_steel_ingot": "2024-08-23 01:22:13 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:alternate_tools": {
+    "criteria": {
+      "tools": "2024-08-23 02:12:50 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-08-23 02:22:38 +0000"
     },
     "done": true
   },
   "minecraft:story/enter_the_nether": {
     "criteria": {
       "entered_nether": "2024-08-23 02:22:38 +0000"
-    },
-    "done": true
-  },
-  "irons_spellbooks:irons_spellbooks/ink_root": {
-    "criteria": {
-      "requirement": "2024-08-23 04:16:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/obtain_blaze_rod": {
-    "criteria": {
-      "blaze_rod": "2024-08-23 03:00:37 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/loot_bastion": {
-    "criteria": {
-      "loot_bastion_treasure": "2024-08-23 02:33:19 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/shoot_arrow": {
-    "criteria": {
-      "shot_arrow": "2024-08-23 04:08:00 +0000"
-    },
-    "done": true
-  },
-  "mekanism:infused_alloy": {
-    "criteria": {
-      "alloy_infused": "2024-08-23 00:50:16 +0000"
     },
     "done": true
   },
@@ -513,9 +497,15 @@
     },
     "done": false
   },
-  "mffs:smelt_steel": {
+  "minecraft:nether/find_fortress": {
     "criteria": {
-      "has_steel_ingot": "2024-08-23 01:22:13 +0000"
+      "fortress": "2024-08-23 02:23:34 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2024-08-23 02:33:19 +0000"
     },
     "done": true
   },
@@ -525,45 +515,27 @@
     },
     "done": true
   },
-  "mekanismgenerators:wind_generator": {
+  "minecraft:nether/obtain_blaze_rod": {
     "criteria": {
-      "wind_generator": "2024-08-23 00:54:54 +0000"
+      "blaze_rod": "2024-08-23 03:00:37 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-08-23 03:06:14 +0000"
+    },
+    "done": true
+  },
+  "mekanism:disassembler": {
+    "criteria": {
+      "atomic_disassembler": "2024-08-23 03:07:48 +0000"
     },
     "done": true
   },
   "artifacts:amateur_archaeologist": {
     "criteria": {
       "find_artifact": "2024-08-23 03:31:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:husbandry/plant_seed": {
-    "criteria": {
-      "wheat": "2024-08-23 00:39:00 +0000"
-    },
-    "done": true
-  },
-  "mekanism:infusing_efficiency": {
-    "criteria": {
-      "enriched_material": "2024-08-23 00:50:26 +0000"
-    },
-    "done": true
-  },
-  "mekanismtools:alternate_tools": {
-    "criteria": {
-      "tools": "2024-08-23 02:12:50 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:main/plant_all_crops": {
-    "criteria": {
-      "wheat": "2024-08-23 00:39:00 +0000"
-    },
-    "done": false
-  },
-  "minecraft:nether/find_fortress": {
-    "criteria": {
-      "fortress": "2024-08-23 02:23:34 +0000"
     },
     "done": true
   },
@@ -576,9 +548,39 @@
     },
     "done": true
   },
-  "pneumaticcraft:amadron_tablet": {
+  "minecraft:adventure/shoot_arrow": {
     "criteria": {
-      "0": "2024-08-23 00:36:50 +0000"
+      "shot_arrow": "2024-08-23 04:08:00 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/ink_root": {
+    "criteria": {
+      "requirement": "2024-08-23 04:16:10 +0000"
+    },
+    "done": true
+  },
+  "croptopia:gather_food": {
+    "criteria": {
+      "glowing_calamari": "2024-08-23 04:41:41 +0000"
+    },
+    "done": false
+  },
+  "mekanism:basic_control_circuit": {
+    "criteria": {
+      "basic_control_circuit": "2024-08-23 04:53:08 +0000"
+    },
+    "done": true
+  },
+  "mekanism:advanced_control_circuit": {
+    "criteria": {
+      "advanced_control_circuit": "2024-08-23 04:53:13 +0000"
+    },
+    "done": true
+  },
+  "mekanism:energy_transport": {
+    "criteria": {
+      "basic_universal_cable": "2024-08-23 04:53:23 +0000"
     },
     "done": true
   },
