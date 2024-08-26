@@ -67,12 +67,15 @@
       "shrubland": "2024-08-24 01:41:31 +0000",
       "old_growth_bayou": "2024-08-23 01:12:59 +0000",
       "grassy_beach": "2024-08-24 01:28:09 +0000",
+      "redstone_abyss": "2024-08-25 20:08:09 +0000",
       "boreal_forest": "2024-08-24 01:29:28 +0000",
       "fen": "2024-08-24 01:29:30 +0000",
       "blackwood_taiga": "2024-08-23 01:14:44 +0000",
       "rocky_meadow": "2024-08-24 01:37:18 +0000",
+      "mycotoxic_undergrowth": "2024-08-25 00:05:50 +0000",
       "pine_taiga": "2024-08-24 01:21:57 +0000",
       "bayou": "2024-08-23 01:37:37 +0000",
+      "blackstone_basin": "2024-08-25 00:07:58 +0000",
       "gravel_beach": "2024-08-24 01:28:18 +0000",
       "muddy_river": "2024-08-24 01:35:16 +0000",
       "towering_cliffs": "2024-08-24 01:37:10 +0000",
@@ -302,6 +305,7 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "minecraft:cave_spider": "2024-08-25 17:50:56 +0000",
       "minecraft:skeleton": "2024-08-23 03:29:43 +0000",
       "minecraft:phantom": "2024-08-24 04:22:12 +0000",
       "minecraft:silverfish": "2024-08-24 18:31:55 +0000",
@@ -309,6 +313,7 @@
       "minecraft:zombie": "2024-08-23 01:50:33 +0000",
       "minecraft:creeper": "2024-08-24 03:22:56 +0000",
       "minecraft:drowned": "2024-08-24 18:58:56 +0000",
+      "minecraft:wither": "2024-08-25 02:09:05 +0000",
       "minecraft:slime": "2024-08-23 02:07:24 +0000"
     },
     "done": false
@@ -351,11 +356,12 @@
   },
   "regions_unexplored:mycologist": {
     "criteria": {
+      "yellow_bioshroom": "2024-08-25 17:36:29 +0000",
       "blue_bioshroom": "2024-08-23 03:29:25 +0000",
       "green_bioshroom": "2024-08-23 04:24:00 +0000",
       "pink_bioshroom": "2024-08-23 03:36:57 +0000"
     },
-    "done": false
+    "done": true
   },
   "evilcraft:first_age": {
     "criteria": {
@@ -549,6 +555,56 @@
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_helmet": "2024-08-24 22:16:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2024-08-25 00:05:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2024-08-25 00:05:49 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:eternal_expedition": {
+    "criteria": {
+      "mycotoxic_undergrowth": "2024-08-25 00:05:50 +0000",
+      "blackstone_basin": "2024-08-25 00:07:58 +0000",
+      "redstone_abyss": "2024-08-25 20:08:09 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/loot_bastion": {
+    "criteria": {
+      "loot_bastion_treasure": "2024-08-25 00:08:41 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:better_than_netherite": {
+    "criteria": {
+      "armor": "2024-08-25 02:02:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/summon_wither": {
+    "criteria": {
+      "summoned": "2024-08-25 02:06:51 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2024-08-25 17:39:44 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/form_obsidian": {
+    "criteria": {
+      "obsidian": "2024-08-25 17:50:11 +0000"
     },
     "done": true
   },

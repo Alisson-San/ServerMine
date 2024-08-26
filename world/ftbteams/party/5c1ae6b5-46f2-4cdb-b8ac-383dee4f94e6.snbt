@@ -3,7 +3,7 @@
 	type: "party"
 	owner: "c65c1ceb-3884-39c2-bdb0-09701f903592"
 	ranks: {
-		0955515e-af5d-3cd7-8320-b512f3478be4: "invited"
+		0955515e-af5d-3cd7-8320-b512f3478be4: "member"
 		c65c1ceb-3884-39c2-bdb0-09701f903592: "owner"
 		81962707-d39b-352b-b4e4-873e7015a37b: "member"
 		ceddbbd6-4dad-3797-9e48-9f6bddecee16: "member"
@@ -38,6 +38,8 @@
 		{ from: "c65c1ceb-3884-39c2-bdb0-09701f903592", date: 1724375720001L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"Nyjl69\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 		{ from: "c65c1ceb-3884-39c2-bdb0-09701f903592", date: 1724375729253L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"vitormp20\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
 		{ from: "00000000-0000-0000-0000-000000000000", date: 1724375742907L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"vitormp20\"],\"color\":\"green\"}" }
+		{ from: "c65c1ceb-3884-39c2-bdb0-09701f903592", date: 1724621135540L, text: "{\"translate\":\"ftbteams.message.invited\",\"with\":[{\"text\":\"Nyjl69\",\"color\":\"yellow\"}],\"color\":\"green\"}" }
+		{ from: "00000000-0000-0000-0000-000000000000", date: 1724621138364L, text: "{\"translate\":\"ftbteams.message.joined\",\"with\":[\"Nyjl69\"],\"color\":\"green\"}" }
 	]
 	extra: { }
 }

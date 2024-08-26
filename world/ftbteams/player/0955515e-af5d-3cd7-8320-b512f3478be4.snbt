@@ -2,9 +2,7 @@
 	id: "0955515e-af5d-3cd7-8320-b512f3478be4"
 	type: "player"
 	player_name: "Nyjl69"
-	ranks: {
-		0955515e-af5d-3cd7-8320-b512f3478be4: "owner"
-	}
+	ranks: { }
 	properties: {
 		"ftbteams:display_name": "Nyjl69"
 		"ftbteams:description": ""
