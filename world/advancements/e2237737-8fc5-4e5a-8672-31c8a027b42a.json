@@ -1,16 +1,4 @@
 {
-  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
-    "criteria": {
-      "in_catacombs": "2024-08-21 18:14:17 -0300"
-    },
-    "done": true
-  },
-  "regions_unexplored:regions_explored": {
-    "criteria": {
-      "old_growth_bayou": "2024-08-21 18:14:17 -0300"
-    },
-    "done": false
-  },
   "mffs:grant_book_on_first_join": {
     "criteria": {
       "guidebook": "2024-08-21 18:14:16 -0300"
@@ -41,12 +29,6 @@
     },
     "done": true
   },
-  "regions_unexplored:pioneer": {
-    "criteria": {
-      "old_growth_bayou": "2024-08-21 18:14:17 -0300"
-    },
-    "done": false
-  },
   "mekanism:root": {
     "criteria": {
       "automatic": "2024-08-21 18:14:16 -0300"
@@ -71,9 +53,35 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/enter_catacombs": {
+    "criteria": {
+      "in_catacombs": "2024-08-21 18:14:17 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:regions_explored": {
+    "criteria": {
+      "old_growth_bayou": "2024-08-21 18:14:17 -0300",
+      "blackwood_taiga": "2024-08-26 22:45:06 -0300"
+    },
+    "done": false
+  },
+  "regions_unexplored:pioneer": {
+    "criteria": {
+      "old_growth_bayou": "2024-08-21 18:14:17 -0300",
+      "blackwood_taiga": "2024-08-26 22:45:06 -0300"
+    },
+    "done": false
+  },
   "regions_unexplored:parent": {
     "criteria": {
       "load_in_world": "2024-08-21 18:14:17 -0300"
+    },
+    "done": true
+  },
+  "regions_unexplored:light_as_a_frog": {
+    "criteria": {
+      "lily_pad": "2024-08-26 22:45:12 -0300"
     },
     "done": true
   },
