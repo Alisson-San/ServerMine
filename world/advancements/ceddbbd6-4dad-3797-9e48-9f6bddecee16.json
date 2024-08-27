@@ -920,5 +920,11 @@
     },
     "done": true
   },
+  "repurposed_structures:temples": {
+    "criteria": {
+      "in_temple_nether_wasteland": "2024-08-26 20:48:06 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 3955
 }

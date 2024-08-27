@@ -1,1 +1,8 @@
-[]
+[
+  {
+    "uuid": "ceddbbd6-4dad-3797-9e48-9f6bddecee16",
+    "name": "Nego_Plays",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
