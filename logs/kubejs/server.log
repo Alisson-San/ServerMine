@@ -1,41 +1,41 @@
-[22:48:11] [INIT] KubeJS 2101.7.0-build.148; MC 2006 NeoForge
-[22:48:11] [INIT] Loaded plugins:
-[22:48:11] [INIT] - dev.latvian.mods.kubejs.BuiltinKubeJSPlugin
-[22:48:11] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[22:48:11] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[22:48:11] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
-[22:48:11] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[22:48:11] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[22:48:11] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[22:48:11] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
-[22:48:11] [INFO] Loaded script server_scripts:modpack/att_items.js in 0.003 s
-[22:48:11] [INFO] Loaded script server_scripts:modpack/miningDim.js in 0.004 s
-[22:48:11] [INFO] Loaded script server_scripts:modpack/mini_portals.js in 0.001 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Allthemodium/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/AllTheOres/Recipes.js in 0.001 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Applied Energistics/Recipes.js in 0.001 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Building Gadgets/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/enderman overhaul/recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Entangled/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Explorer's Compass/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/FTB Quests/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Handcrafted/Recipes.js in 0.001 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Mekanism/Compatibility.js in 0.002 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Mekanism/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Aluminum.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Cobble_Gen.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Quarry.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Replicator.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/Recipes.js in 0.001 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Powah/Energizing.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Productive Bees/Temp_Fix.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:mods/Time In A Bottle/Recipes.js in 0.0 s
-[22:48:11] [INFO] Loaded script server_scripts:Tweaks/tags.js in 0.0 s
-[22:48:11] [INFO] Loaded 23/23 KubeJS server scripts in 0.056 s with 0 errors and 0 warnings
-[22:48:14] [INFO] [minecraft:block] Found 1715 tags, added 40 objects, removed 0 objects
-[22:48:18] [INFO] Initializing recipe event...
-[22:48:18] [INFO] Processing recipes...
-[22:48:19] [INFO] Found 29144 recipes in 874.7 ms
-[22:48:20] [INFO] Posted recipe events in 489 ms
-[22:48:20] [INFO] Added 146 recipes, removed 83 recipes, modified 29061 recipes, with 0 failed recipes in 179 ms
-[22:48:23] [INFO] Server resource reload complete!
+[14:52:35] [INIT] KubeJS 2101.7.0-build.148; MC 2006 NeoForge
+[14:52:35] [INIT] Loaded plugins:
+[14:52:35] [INIT] - dev.latvian.mods.kubejs.BuiltinKubeJSPlugin
+[14:52:35] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[14:52:35] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[14:52:35] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[14:52:35] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[14:52:35] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[14:52:35] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[14:52:35] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[14:52:35] [INFO] Loaded script server_scripts:Tweaks/tags.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Explorer's Compass/Recipes.js in 0.002 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Mekanism/Recipes.js in 0.005 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Mekanism/Compatibility.js in 0.016 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Applied Energistics/Recipes.js in 0.005 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/FTB Quests/Recipes.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/enderman overhaul/recipes.js in 0.0 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/Recipes.js in 0.0 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Handcrafted/Recipes.js in 0.004 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Productive Bees/Temp_Fix.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Quarry.js in 0.006 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Replicator.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Aluminum.js in 0.002 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Cobble_Gen.js in 0.003 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Powah/Energizing.js in 0.003 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Building Gadgets/Recipes.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Allthemodium/Recipes.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Entangled/Recipes.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/Time In A Bottle/Recipes.js in 0.0 s
+[14:52:35] [INFO] Loaded script server_scripts:mods/AllTheOres/Recipes.js in 0.0 s
+[14:52:35] [INFO] Loaded script server_scripts:modpack/mini_portals.js in 0.001 s
+[14:52:35] [INFO] Loaded script server_scripts:modpack/miningDim.js in 0.008 s
+[14:52:35] [INFO] Loaded script server_scripts:modpack/att_items.js in 0.004 s
+[14:52:35] [INFO] Loaded 23/23 KubeJS server scripts in 0.169 s with 0 errors and 0 warnings
+[14:52:43] [INFO] [minecraft:block] Found 1715 tags, added 40 objects, removed 0 objects
+[14:52:59] [INFO] Initializing recipe event...
+[14:52:59] [INFO] Processing recipes...
+[14:53:01] [INFO] Found 29144 recipes in 2.028 s
+[14:53:03] [INFO] Posted recipe events in 1.363 s
+[14:53:04] [INFO] Added 146 recipes, removed 83 recipes, modified 29061 recipes, with 0 failed recipes in 1.107 s
+[14:53:11] [INFO] Server resource reload complete!

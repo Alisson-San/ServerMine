@@ -818,15 +818,27 @@
     },
     "done": true
   },
+  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+    "criteria": {
+      "requirement": "2024-08-25 22:07:36 +0000"
+    },
+    "done": true
+  },
   "mekanism:playing_with_fire": {
     "criteria": {
       "flamethrower": "2024-08-25 22:51:53 +0000"
     },
     "done": true
   },
-  "irons_spellbooks:irons_spellbooks/ink_legendary": {
+  "minecraft:end/enter_end_gateway": {
     "criteria": {
-      "requirement": "2024-08-25 22:07:36 +0000"
+      "entered_end_gateway": "2024-08-29 00:29:33 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:ruined_portal_end": {
+    "criteria": {
+      "in_ruined_portal_end": "2024-08-29 00:30:57 +0000"
     },
     "done": true
   },
