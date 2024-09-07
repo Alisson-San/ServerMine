@@ -336,6 +336,7 @@
       "minecraft:witch": "2024-08-24 05:59:21 +0000",
       "minecraft:wither_skeleton": "2024-08-25 00:05:14 +0000",
       "minecraft:ravager": "2024-09-02 01:45:20 +0000",
+      "minecraft:ender_dragon": "2024-09-04 00:01:53 +0000",
       "minecraft:shulker": "2024-09-03 01:59:26 +0000",
       "minecraft:cave_spider": "2024-08-29 23:06:42 +0000",
       "minecraft:vindicator": "2024-09-03 01:41:01 +0000",
@@ -1206,23 +1207,17 @@
     },
     "done": true
   },
-  "repurposed_structures:shipwrecks": {
+  "repurposed_structures:outposts": {
     "criteria": {
-      "in_shipwreck_end": "2024-09-03 01:58:03 +0000"
+      "in_outpost_oak": "2024-09-03 01:38:52 +0000"
     },
     "done": false
   },
-  "minecraft:nether/brew_potion": {
+  "repurposed_structures:mansions": {
     "criteria": {
-      "potion": "2024-09-03 01:59:22 +0000"
+      "in_mansion_oak": "2024-09-03 01:40:58 +0000"
     },
-    "done": true
-  },
-  "minecraft:end/find_end_city": {
-    "criteria": {
-      "in_city": "2024-09-03 01:59:07 +0000"
-    },
-    "done": true
+    "done": false
   },
   "minecraft:end/enter_end_gateway": {
     "criteria": {
@@ -1230,11 +1225,23 @@
     },
     "done": true
   },
-  "repurposed_structures:outposts": {
+  "repurposed_structures:shipwrecks": {
     "criteria": {
-      "in_outpost_oak": "2024-09-03 01:38:52 +0000"
+      "in_shipwreck_end": "2024-09-03 01:58:03 +0000"
     },
     "done": false
+  },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2024-09-03 01:59:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2024-09-03 01:59:22 +0000"
+    },
+    "done": true
   },
   "minecraft:end/elytra": {
     "criteria": {
@@ -1242,11 +1249,173 @@
     },
     "done": true
   },
-  "repurposed_structures:mansions": {
+  "undergarden:undergarden/root": {
     "criteria": {
-      "in_mansion_oak": "2024-09-03 01:40:58 +0000"
+      "tick": "2024-09-03 22:06:38 +0000"
     },
-    "done": false
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2024-09-03 23:54:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/respawn_dragon": {
+    "criteria": {
+      "summoned_dragon": "2024-09-03 23:58:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2024-09-04 00:01:53 +0000"
+    },
+    "done": true
+  },
+  "occultism:occultism/craft_miner_marid_master": {
+    "criteria": {
+      "craft_miner_marid_master": "2024-09-04 00:16:12 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:burn_the_gas": {
+    "criteria": {
+      "gas_burning_generator": "2024-09-04 00:35:08 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:forge_hammer": {
+    "criteria": {
+      "checkInv": "2024-09-04 00:50:23 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:steel_wiremill": {
+    "criteria": {
+      "checkInv": "2024-09-04 00:58:06 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:bronze_mixer": {
+    "criteria": {
+      "checkInv": "2024-09-04 01:30:41 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:oil_bucket": {
+    "criteria": {
+      "0": "2024-09-04 01:31:24 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:coke_oven": {
+    "criteria": {
+      "checkInv": "2024-09-04 01:36:27 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:bronze_macerator": {
+    "criteria": {
+      "checkInv": "2024-09-04 01:46:57 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:fire_clay_bricks": {
+    "criteria": {
+      "checkInv": "2024-09-04 02:06:01 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:steam_blast_furnace": {
+    "criteria": {
+      "checkInv": "2024-09-04 02:06:16 +0000"
+    },
+    "done": true
+  },
+  "railcraft:tracks/crusher": {
+    "criteria": {
+      "inv_changed": "2024-09-04 21:28:40 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:steam_quarry": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:31:14 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:electric_blast_furnace": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:37:40 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:capacitor": {
+    "criteria": {
+      "checkInv": "2024-09-05 03:13:14 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:large_steam_boiler": {
+    "criteria": {
+      "checkInv": "2024-09-05 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:polarizer": {
+    "criteria": {
+      "checkInv": "2024-09-04 21:43:01 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:resistor": {
+    "criteria": {
+      "checkInv": "2024-09-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:inductor": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:01:46 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:electronic_circuit": {
+    "criteria": {
+      "checkInv": "2024-09-05 03:18:59 +0000"
+    },
+    "done": true
+  },
+  "railcraft:tracks/manual_rolling_machine": {
+    "criteria": {
+      "inv_changed": "2024-09-04 21:27:11 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:steel_machine_casing": {
+    "criteria": {
+      "checkInv": "2024-09-05 03:26:57 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:electric_quarry": {
+    "criteria": {
+      "checkInv": "2024-09-05 03:25:54 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:analog_circuit": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:03:08 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:bronze_compressor": {
+    "criteria": {
+      "checkInv": "2024-09-04 21:36:46 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3955
 }
