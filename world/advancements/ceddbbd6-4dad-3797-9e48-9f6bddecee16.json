@@ -68,6 +68,7 @@
       "redstone_abyss": "2024-08-24 05:38:05 +0000",
       "boreal_forest": "2024-09-01 00:14:04 +0000",
       "fen": "2024-08-23 23:11:05 +0000",
+      "glistering_meadow": "2024-09-07 23:36:56 +0000",
       "pine_taiga": "2024-08-23 23:56:34 +0000",
       "bayou": "2024-08-22 21:43:29 +0000",
       "blackstone_basin": "2024-08-24 05:37:40 +0000",
@@ -331,27 +332,33 @@
       "minecraft:blaze": "2024-08-24 18:39:52 +0000",
       "minecraft:pillager": "2024-08-25 03:52:44 +0000",
       "minecraft:skeleton": "2024-08-22 21:29:20 +0000",
+      "minecraft:elder_guardian": "2024-09-12 20:55:05 +0000",
+      "minecraft:ravager": "2024-09-02 01:45:20 +0000",
+      "minecraft:ghast": "2024-09-07 23:39:42 +0000",
+      "minecraft:hoglin": "2024-09-07 23:38:27 +0000",
+      "minecraft:guardian": "2024-09-12 20:55:17 +0000",
+      "minecraft:vindicator": "2024-09-03 01:41:01 +0000",
+      "minecraft:magma_cube": "2024-08-25 07:02:38 +0000",
+      "minecraft:spider": "2024-08-22 21:49:02 +0000",
+      "minecraft:piglin_brute": "2024-09-07 23:49:07 +0000",
+      "minecraft:creeper": "2024-08-23 22:01:08 +0000",
+      "minecraft:wither": "2024-08-25 00:57:47 +0000",
+      "minecraft:slime": "2024-08-24 00:14:33 +0000",
+      "minecraft:evoker": "2024-09-03 01:41:08 +0000",
       "minecraft:phantom": "2024-08-24 02:41:40 +0000",
       "minecraft:zombified_piglin": "2024-08-25 00:54:22 +0000",
       "minecraft:witch": "2024-08-24 05:59:21 +0000",
       "minecraft:wither_skeleton": "2024-08-25 00:05:14 +0000",
-      "minecraft:ravager": "2024-09-02 01:45:20 +0000",
       "minecraft:ender_dragon": "2024-09-04 00:01:53 +0000",
       "minecraft:shulker": "2024-09-03 01:59:26 +0000",
       "minecraft:cave_spider": "2024-08-29 23:06:42 +0000",
-      "minecraft:vindicator": "2024-09-03 01:41:01 +0000",
+      "minecraft:piglin": "2024-09-07 23:40:24 +0000",
       "minecraft:silverfish": "2024-08-22 22:08:07 +0000",
       "minecraft:enderman": "2024-08-25 20:42:21 +0000",
-      "minecraft:magma_cube": "2024-08-25 07:02:38 +0000",
-      "minecraft:spider": "2024-08-22 21:49:02 +0000",
       "minecraft:vex": "2024-09-03 01:41:12 +0000",
       "minecraft:zombie": "2024-08-22 22:33:27 +0000",
-      "minecraft:creeper": "2024-08-23 22:01:08 +0000",
       "minecraft:drowned": "2024-08-24 01:27:19 +0000",
-      "minecraft:wither": "2024-08-25 00:57:47 +0000",
-      "minecraft:zombie_villager": "2024-08-24 00:25:44 +0000",
-      "minecraft:slime": "2024-08-24 00:14:33 +0000",
-      "minecraft:evoker": "2024-09-03 01:41:08 +0000"
+      "minecraft:zombie_villager": "2024-08-24 00:25:44 +0000"
     },
     "done": false
   },
@@ -403,11 +410,13 @@
       "minecraft:old_growth_spruce_taiga": "2024-08-29 23:02:19 +0000",
       "minecraft:snowy_beach": "2024-08-29 23:03:06 +0000",
       "minecraft:windswept_savanna": "2024-08-24 05:21:48 +0000",
+      "minecraft:deep_lukewarm_ocean": "2024-09-12 20:50:16 +0000",
       "minecraft:beach": "2024-08-24 03:13:30 +0000",
       "minecraft:dark_forest": "2024-08-24 00:42:01 +0000",
       "minecraft:mangrove_swamp": "2024-09-02 21:40:02 +0000",
       "minecraft:sparse_jungle": "2024-09-02 21:40:41 +0000",
       "minecraft:river": "2024-08-22 21:43:21 +0000",
+      "minecraft:lukewarm_ocean": "2024-09-12 20:50:11 +0000",
       "minecraft:stony_shore": "2024-08-29 23:11:01 +0000",
       "minecraft:snowy_taiga": "2024-08-29 23:03:04 +0000",
       "minecraft:dripstone_caves": "2024-09-02 01:29:44 +0000",
@@ -449,6 +458,7 @@
   },
   "farmersdelight:main/plant_all_crops": {
     "criteria": {
+      "chorus_flower": "2024-09-13 20:59:27 +0000",
       "sugar_cane": "2024-08-23 00:35:57 +0000",
       "wheat": "2024-08-22 23:04:34 +0000",
       "melon": "2024-08-29 21:58:25 +0000"
@@ -782,9 +792,10 @@
       "mycotoxic_undergrowth": "2024-08-24 02:00:25 +0000",
       "blackstone_basin": "2024-08-24 05:37:40 +0000",
       "infernal_holt": "2024-08-31 02:31:49 +0000",
-      "redstone_abyss": "2024-08-24 05:38:05 +0000"
+      "redstone_abyss": "2024-08-24 05:38:05 +0000",
+      "glistering_meadow": "2024-09-07 23:36:56 +0000"
     },
-    "done": false
+    "done": true
   },
   "ae2:main/portable_cell": {
     "criteria": {
@@ -838,9 +849,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2024-08-24 05:39:47 +0000",
       "minecraft:nether_wastes": "2024-08-24 05:39:18 +0000",
-      "minecraft:soul_sand_valley": "2024-08-24 18:38:11 +0000"
+      "minecraft:soul_sand_valley": "2024-08-24 18:38:11 +0000",
+      "minecraft:basalt_deltas": "2024-09-07 23:37:50 +0000",
+      "minecraft:warped_forest": "2024-09-07 23:53:56 +0000"
     },
-    "done": false
+    "done": true
   },
   "evilcraft:second_age": {
     "criteria": {
@@ -961,7 +974,8 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2024-08-25 13:27:11 +0000",
-      "minecraft:sheep": "2024-08-25 13:27:13 +0000"
+      "minecraft:sheep": "2024-08-25 13:27:13 +0000",
+      "minecraft:bee": "2024-09-10 23:41:23 +0000"
     },
     "done": false
   },
@@ -1227,7 +1241,8 @@
   },
   "repurposed_structures:shipwrecks": {
     "criteria": {
-      "in_shipwreck_end": "2024-09-03 01:58:03 +0000"
+      "in_shipwreck_end": "2024-09-03 01:58:03 +0000",
+      "in_shipwreck_nether_bricks": "2024-09-08 00:18:53 +0000"
     },
     "done": false
   },
@@ -1333,9 +1348,51 @@
     },
     "done": true
   },
+  "railcraft:tracks/manual_rolling_machine": {
+    "criteria": {
+      "inv_changed": "2024-09-04 21:27:11 +0000"
+    },
+    "done": true
+  },
   "railcraft:tracks/crusher": {
     "criteria": {
       "inv_changed": "2024-09-04 21:28:40 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:bronze_compressor": {
+    "criteria": {
+      "checkInv": "2024-09-04 21:36:46 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:polarizer": {
+    "criteria": {
+      "checkInv": "2024-09-04 21:43:01 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:resistor": {
+    "criteria": {
+      "checkInv": "2024-09-05 01:51:57 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:large_steam_boiler": {
+    "criteria": {
+      "checkInv": "2024-09-05 01:52:21 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:inductor": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:01:46 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:analog_circuit": {
+    "criteria": {
+      "checkInv": "2024-09-05 02:03:08 +0000"
     },
     "done": true
   },
@@ -1357,45 +1414,9 @@
     },
     "done": true
   },
-  "modern_industrialization:large_steam_boiler": {
-    "criteria": {
-      "checkInv": "2024-09-05 01:52:21 +0000"
-    },
-    "done": true
-  },
-  "modern_industrialization:polarizer": {
-    "criteria": {
-      "checkInv": "2024-09-04 21:43:01 +0000"
-    },
-    "done": true
-  },
-  "modern_industrialization:resistor": {
-    "criteria": {
-      "checkInv": "2024-09-05 01:51:57 +0000"
-    },
-    "done": true
-  },
-  "modern_industrialization:inductor": {
-    "criteria": {
-      "checkInv": "2024-09-05 02:01:46 +0000"
-    },
-    "done": true
-  },
   "modern_industrialization:electronic_circuit": {
     "criteria": {
       "checkInv": "2024-09-05 03:18:59 +0000"
-    },
-    "done": true
-  },
-  "railcraft:tracks/manual_rolling_machine": {
-    "criteria": {
-      "inv_changed": "2024-09-04 21:27:11 +0000"
-    },
-    "done": true
-  },
-  "modern_industrialization:steel_machine_casing": {
-    "criteria": {
-      "checkInv": "2024-09-05 03:26:57 +0000"
     },
     "done": true
   },
@@ -1405,15 +1426,248 @@
     },
     "done": true
   },
-  "modern_industrialization:analog_circuit": {
+  "modern_industrialization:steel_machine_casing": {
     "criteria": {
-      "checkInv": "2024-09-05 02:03:08 +0000"
+      "checkInv": "2024-09-05 03:26:57 +0000"
     },
     "done": true
   },
-  "modern_industrialization:bronze_compressor": {
+  "mekanism:teleporter": {
     "criteria": {
-      "checkInv": "2024-09-04 21:36:46 +0000"
+      "teleporter": "2024-09-07 02:23:33 +0000"
+    },
+    "done": false
+  },
+  "deeperdarker:main/root": {
+    "criteria": {
+      "deep_dark": "2024-09-07 02:30:24 +0000"
+    },
+    "done": true
+  },
+  "mekanism:purification_chamber": {
+    "criteria": {
+      "purification_chamber": "2024-09-07 03:00:47 +0000"
+    },
+    "done": true
+  },
+  "mekanism:injection_chamber": {
+    "criteria": {
+      "chemical_injection_chamber": "2024-09-07 03:22:18 +0000"
+    },
+    "done": true
+  },
+  "pneumaticcraft:programming_puzzle": {
+    "criteria": {
+      "0": "2024-09-07 23:41:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/distract_piglin": {
+    "criteria": {
+      "distract_piglin": "2024-09-07 23:42:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/find_bastion": {
+    "criteria": {
+      "bastion": "2024-09-07 23:47:18 +0000"
+    },
+    "done": true
+  },
+  "repurposed_structures:pyramids": {
+    "criteria": {
+      "in_pyramid_nether": "2024-09-08 00:01:54 +0000"
+    },
+    "done": false
+  },
+  "repurposed_structures:ruins": {
+    "criteria": {
+      "in_ruins_nether": "2024-09-08 00:06:19 +0000"
+    },
+    "done": false
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_rotten": {
+    "criteria": {
+      "requirement": "2024-09-08 00:47:20 +0000"
+    },
+    "done": true
+  },
+  "mekanismtools:loved_by_piglins": {
+    "criteria": {
+      "armor": "2024-09-08 01:13:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/ol_betsy": {
+    "criteria": {
+      "shot_crossbow": "2024-09-08 01:41:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/place_campfire": {
+    "criteria": {
+      "campfire": "2024-09-08 03:28:14 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:assembler": {
+    "criteria": {
+      "checkInv": "2024-09-08 04:02:56 +0000"
+    },
+    "done": true
+  },
+  "ae2:main/network2": {
+    "criteria": {
+      "cable": "2024-09-08 04:53:41 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:centrifuge": {
+    "criteria": {
+      "checkInv": "2024-09-08 05:49:50 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:chemical_reactor": {
+    "criteria": {
+      "checkInv": "2024-09-08 06:09:21 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:distillery": {
+    "criteria": {
+      "checkInv": "2024-09-08 06:30:05 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/kill_all_sculk_mobs": {
+    "criteria": {
+      "phantom": "2024-09-08 07:02:22 +0000"
+    },
+    "done": false
+  },
+  "modern_industrialization:oil_drilling_rig": {
+    "criteria": {
+      "checkInv": "2024-09-08 07:04:19 +0000"
+    },
+    "done": true
+  },
+  "dimstorage:dimensional_tank": {
+    "criteria": {
+      "inv_changed": "2024-09-08 07:41:07 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:electrolyzer": {
+    "criteria": {
+      "checkInv": "2024-09-08 08:00:15 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:vacuum_freezer": {
+    "criteria": {
+      "checkInv": "2024-09-09 23:28:16 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:stainless_steel_ingot": {
+    "criteria": {
+      "checkInv": "2024-09-09 23:54:24 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:basic_upgrade": {
+    "criteria": {
+      "checkInv": "2024-09-10 01:50:18 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:kanthal_coil": {
+    "criteria": {
+      "checkInv": "2024-09-10 21:03:59 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:quantum_upgrade": {
+    "criteria": {
+      "checkInv": "2024-09-10 21:54:52 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:distillation_tower": {
+    "criteria": {
+      "checkInv": "2024-09-10 22:34:23 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:honey_bucket/obtain_honey_bucket": {
+    "criteria": {
+      "obtain_honey_bucket": "2024-09-11 00:07:06 +0000"
+    },
+    "done": true
+  },
+  "deeperdarker:main/find_ancient_city": {
+    "criteria": {
+      "ancient_city": "2024-09-12 04:15:34 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:teleportation/teleport_to_bumblezone_pearl": {
+    "criteria": {
+      "teleport_to_bumblezone_pearl": "2024-09-13 02:06:20 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:biomes/discover_all_biomes": {
+    "criteria": {
+      "crystal_canyon": "2024-09-13 02:13:25 +0000",
+      "pollinated_pillar": "2024-09-13 02:08:40 +0000",
+      "sugar_water_floor": "2024-09-13 02:09:03 +0000",
+      "hive_wall": "2024-09-13 02:09:05 +0000",
+      "pollinated_fields": "2024-09-13 02:06:38 +0000"
+    },
+    "done": false
+  },
+  "the_bumblezone:honey_crystal/obtain_honey_crystal_block": {
+    "criteria": {
+      "obtain_honey_crystal_block": "2024-09-13 02:10:25 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:structures/enter_all_structures": {
+    "criteria": {
+      "in_hanging_garden": "2024-09-13 02:13:55 +0000",
+      "in_overgrown_flower": "2024-09-13 02:13:40 +0000"
+    },
+    "done": false
+  },
+  "the_bumblezone:structures/enter_garden": {
+    "criteria": {
+      "in_hanging_garden": "2024-09-13 02:13:55 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:combs_and_wax/carve_carvable_wax": {
+    "criteria": {
+      "carve_wax_1": "2024-09-13 02:16:32 +0000",
+      "carve_wax_4": "2024-09-13 02:16:28 +0000",
+      "carve_wax_9": "2024-09-13 02:16:32 +0000",
+      "carve_wax_6": "2024-09-13 02:16:31 +0000",
+      "carve_wax_5": "2024-09-13 02:16:31 +0000",
+      "carve_wax_8": "2024-09-13 02:16:32 +0000",
+      "carve_wax_7": "2024-09-13 02:16:32 +0000"
+    },
+    "done": false
+  },
+  "the_bumblezone:teleportation/teleport_out_of_bumblezone": {
+    "criteria": {
+      "teleport_out_of_bumblezone": "2024-09-13 02:21:08 +0000"
+    },
+    "done": true
+  },
+  "the_bumblezone:combs_and_wax/craft_beeswax_to_beehive": {
+    "criteria": {
+      "craft_beeswax_to_beehive": "2024-09-13 02:21:56 +0000"
     },
     "done": true
   },

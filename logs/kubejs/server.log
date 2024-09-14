@@ -1,49 +1,49 @@
-[22:08:53] [INIT] KubeJS 2101.7.0-build.160; MC 2101 NeoForge
-[22:08:53] [INIT] Loaded plugins:
-[22:08:53] [INIT] - dev.latvian.mods.kubejs.BuiltinKubeJSPlugin
-[22:08:53] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
-[22:08:53] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
-[22:08:53] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
-[22:08:53] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
-[22:08:53] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
-[22:08:53] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
-[22:08:53] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
-[22:08:53] [INFO] Loaded script server_scripts:Tweaks/recipes.js in 0.003 s
-[22:08:53] [INFO] Loaded script server_scripts:Tweaks/tags.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Explorer's Compass/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Mekanism/Recipes.js in 0.012 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Mekanism/Compatibility.js in 0.01 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Applied Energistics/Recipes.js in 0.006 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/FTB Quests/Recipes.js in 0.002 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/enderman overhaul/recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/FusionCrafting.js in 0.003 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/Recipes.js in 0.002 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Handcrafted/Recipes.js in 0.002 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Productive Bees/Temp_Fix.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Utilitarian/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Quarry.js in 0.003 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Replicator.js in 0.0 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Aluminum.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Cobble_Gen.js in 0.002 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Powah/Energizing.js in 0.003 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Building Gadgets/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/AdditionalEnchantedMiner/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Allthemodium/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Entangled/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/Time In A Bottle/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/JustDireThings/Recipes.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/AllTheOres/Recipes.js in 0.0 s
-[22:08:53] [INFO] Loaded script server_scripts:mods/ExtremeReactors/Recipes.js in 0.002 s
-[22:08:53] [INFO] Loaded script server_scripts:Unification/sawing.js in 0.004 s
-[22:08:53] [INFO] Loaded script server_scripts:modpack/mini_portals.js in 0.001 s
-[22:08:53] [INFO] Loaded script server_scripts:modpack/miningDim.js in 0.006 s
-[22:08:53] [INFO] Loaded script server_scripts:modpack/att_items.js in 0.002 s
-[22:08:53] [INFO] Loaded 30/30 KubeJS server scripts in 0.156 s with 0 errors and 0 warnings
-[22:09:00] [INFO] [minecraft:block] Found 1783 tags, added 41 objects, removed 0 objects
-[22:09:01] [INFO] [minecraft:item] Found 3532 tags, added 17 objects, removed 0 objects
-[22:09:20] [INFO] Initializing recipe event...
-[22:09:20] [INFO] Processing recipes...
-[22:09:23] [INFO] Found 30324 recipes in 2.468 s
-[22:09:25] [INFO] Posted recipe events in 1.770 s
-[22:09:26] [INFO] Added 1905 recipes, removed 89 recipes, modified 30235 recipes, with 0 failed recipes in 1.570 s
-[22:09:32] [INFO] Server resource reload complete!
+[02:08:29] [INIT] KubeJS 2101.7.0-build.160; MC 2101 NeoForge
+[02:08:29] [INIT] Loaded plugins:
+[02:08:29] [INIT] - dev.latvian.mods.kubejs.BuiltinKubeJSPlugin
+[02:08:29] [INIT] - dev.latvian.mods.kubejs.integration.architectury.ArchitecturyIntegration
+[02:08:29] [INIT] - com.blakebr0.cucumber.compat.kubejs.CucumberKubeJSPlugin
+[02:08:29] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbquests.kubejs.FTBQuestsKubeJSPlugin
+[02:08:29] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[02:08:29] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[02:08:29] [INIT] - dev.ftb.mods.ftbxmodcompat.neoforge.ftbfiltersystem.kubejs.FFSKubeJSPlugin
+[02:08:29] [INIT] - aztech.modern_industrialization.compat.kubejs.MIKubeJSPlugin
+[02:08:29] [INFO] Loaded script server_scripts:Tweaks/recipes.js in 0.004 s
+[02:08:29] [INFO] Loaded script server_scripts:Tweaks/tags.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Explorer's Compass/Recipes.js in 0.0 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Mekanism/Recipes.js in 0.009 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Mekanism/Compatibility.js in 0.008 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Applied Energistics/Recipes.js in 0.008 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/FTB Quests/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/enderman overhaul/recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/FusionCrafting.js in 0.002 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/MysticalAgriculture/Recipes.js in 0.002 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Handcrafted/Recipes.js in 0.002 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Productive Bees/Temp_Fix.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Utilitarian/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Quarry.js in 0.003 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Replicator.js in 0.0 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Aluminum.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Modern Industrialization/Cobble_Gen.js in 0.002 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Powah/Energizing.js in 0.002 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Building Gadgets/Recipes.js in 0.0 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/AdditionalEnchantedMiner/Recipes.js in 0.0 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Allthemodium/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Entangled/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/Time In A Bottle/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/JustDireThings/Recipes.js in 0.0 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/AllTheOres/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:mods/ExtremeReactors/Recipes.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:Unification/sawing.js in 0.005 s
+[02:08:29] [INFO] Loaded script server_scripts:modpack/mini_portals.js in 0.001 s
+[02:08:29] [INFO] Loaded script server_scripts:modpack/miningDim.js in 0.006 s
+[02:08:29] [INFO] Loaded script server_scripts:modpack/att_items.js in 0.002 s
+[02:08:29] [INFO] Loaded 30/30 KubeJS server scripts in 0.153 s with 0 errors and 0 warnings
+[02:08:38] [INFO] [minecraft:item] Found 3549 tags, added 2 objects, removed 0 objects
+[02:08:38] [INFO] [minecraft:block] Found 1801 tags, added 41 objects, removed 0 objects
+[02:08:54] [INFO] Initializing recipe event...
+[02:08:54] [INFO] Processing recipes...
+[02:08:56] [INFO] Found 31009 recipes in 2.270 s
+[02:08:59] [INFO] Posted recipe events in 2.716 s
+[02:09:00] [INFO] Added 501 recipes, removed 84 recipes, modified 30925 recipes, with 0 failed recipes in 928 ms
+[02:09:07] [INFO] Server resource reload complete!
