@@ -66,7 +66,7 @@ pressurizedReactionBase = 2000
 fluidicPlenisher = 40000
 #Base energy storage in Joules of: Laser
 #Range: 1 ~ 9223372036854775807
-laser = 2000000
+laser = 10000000
 #Base energy storage in Joules of: Laser Amplifier
 #Range: 1 ~ 9223372036854775807
 laserAmplifier = 5000000000

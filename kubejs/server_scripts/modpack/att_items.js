@@ -8,7 +8,7 @@ ServerEvents.recipes(allthemods => {
     D: 'occultism:soul_gem',
     A: 'occultism:spawn_egg/familiar_dragon',
     S: 'productivetrees:socotra_dragon_sapling',
-    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1254]',
+    N: 'hostilenetworks:data_model[hostilenetworks:data_model="hostilenetworks:ender_dragon",hostilenetworks:data=1255]',
     I: 'allthemodium:piglich_heart_block',
     B: 'productivebees:spawn_egg_configurable_bee[entity_data={id:"productivebees:configurable_bee",type:"productivebees:soul_lava"}]',
 	  G: 'productivebees:inactive_dragon_egg',
@@ -42,7 +42,7 @@ ServerEvents.recipes(allthemods => {
     // Withers Compass
     allthemods.shaped('allthetweaks:withers_compass', ['DCD', 'ABA', 'DED'], {
       A: 'minecraft:bedrock',
-      B: 'minecraft:bedrock',
+      B: 'industrialforegoing:wither_builder',
       C: 'deeperdarker:heart_of_the_deep',
       D: 'minecraft:bedrock',
       E: 'minecraft:bedrock'

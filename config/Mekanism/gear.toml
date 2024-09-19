@@ -157,16 +157,16 @@
 [mekatool]
 	#Energy capacity (Joules) of the Meka-Tool without any installed upgrades. Quadratically scaled by upgrades.
 	#Range: 0 ~ 9223372036854775807
-	baseEnergyCapacity = 16000000
+	baseEnergyCapacity = 40000000
 	#Amount (joules) of energy the Meka-Tool can accept per tick. Quadratically scaled by upgrades.
 	#Range: 0 ~ 9223372036854775807
-	chargeRate = 100000
+	chargeRate = 200000
 	#Base bonus damage applied by the Meka-Tool without using any energy.
 	#Range: 0 ~ 100000
-	baseDamage = 4
+	baseDamage = 24
 	#Attack speed of the Meka-Tool.
 	#Range: -4.0 ~ 100.0
-	attackSpeed = -2.4
+	attackSpeed = -0.8
 	#Efficiency of the Meka-Tool with energy but without any upgrades.
 	#Range: 0.1 ~ 100.0
 	baseEfficiency = 4.0
@@ -180,46 +180,46 @@
 	[mekatool.energy_usage]
 		#Base energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
 		#Range: 0 ~ 9223372036854775807
-		base = 10
+		base = 50
 		#Silk touch energy (Joules) usage of the Meka-Tool. (Gets multiplied by speed factor)
 		#Range: 0 ~ 9223372036854775807
-		silk = 100
+		silk = 500
 		#Cost in Joules of using the Meka-Tool to deal 4 units of damage.
 		#Range: 0 ~ 9223372036854775807
-		weapon = 2000
+		weapon = 4000
 		#Cost in Joules of using the Meka-Tool as a hoe.
 		#Range: 0 ~ 9223372036854775807
-		hoe = 10
+		hoe = 50
 		#Cost in Joules of using the Meka-Tool as a shovel for making paths and dowsing campfires.
 		#Range: 0 ~ 9223372036854775807
-		shovel = 10
+		shovel = 50
 		#Cost in Joules of using the Meka-Tool as an axe for stripping logs, scraping, or removing wax.
 		#Range: 0 ~ 9223372036854775807
-		axe = 10
+		axe = 50
 		#Cost in Joules of using the Meka-Tool to shear entities.
 		#Range: 0 ~ 9223372036854775807
-		shearEntity = 10
+		shearEntity = 50
 		#Cost in Joules of using the Meka-Tool to carefully shear and trim blocks.
 		#Range: 0 ~ 9223372036854775807
-		shearTrim = 10
+		shearTrim = 50
 		#Cost in Joules of using the Meka-Tool to teleport 10 blocks.
 		#Range: 0 ~ 9223372036854775807
-		teleport = 1000
+		teleport = 2500
 
 #Settings for configuring the MekaSuit
 [mekasuit]
 	#Energy capacity (Joules) of MekaSuit items without any installed upgrades. Quadratically scaled by upgrades.
 	#Range: 0 ~ 9223372036854775807
-	baseEnergyCapacity = 16000000
+	baseEnergyCapacity = 40000000
 	#Amount (joules) of energy the MekaSuit can accept per tick. Quadratically scaled by upgrades.
 	#Range: 0 ~ 9223372036854775807
-	chargeRate = 100000
+	chargeRate = 200000
 	#Charge rate of inventory items in Joules/t when charging the player's inventory with the Charge Distribution Unit.
 	#Range: 0 ~ 9223372036854775807
 	inventoryChargeRate = 10000
 	#Solar recharging rate in Joules/t of the helmet, per upgrade installed.
 	#Range: 0 ~ 9223372036854775807
-	solarRechargingRate = 500
+	solarRechargingRate = 1500
 	#Should the Gravitational Modulation unit give off vibrations that can be detected by Sculk Sensors and Shriekers when in use.
 	gravitationalVibrations = true
 	#Maximum amount in mB of Nutritional Paste storable by the nutritional injection unit.
@@ -239,25 +239,25 @@
 	[mekasuit.energy_usage]
 		#Energy usage (Joules) of MekaSuit per unit of damage applied.
 		#Range: 0 ~ 9223372036854775807
-		damage = 100000
+		damage = 250000
 		#Energy cost multiplier in Joules for reducing magic damage via the inhalation purification unit. Energy cost is: MagicDamage * magicReduce. (1 MagicDamage is 1 half heart).
 		#Range: 0 ~ 9223372036854775807
-		magicReduce = 1000
+		magicReduce = 2500
 		#Energy cost multiplier in Joules for reducing fall damage with MekaSuit Boots. Energy cost is: FallDamage * fall. (1 FallDamage is 1 half heart)
 		#Range: 0 ~ 9223372036854775807
-		fall = 50
+		fall = 250
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to jump motion.
 		#Range: 0 ~ 9223372036854775807
-		jump = 1000
+		jump = 2000
 		#Energy usage (Joules) per second of the MekaSuit when flying with the Elytra Unit.
 		#Range: 0 ~ 9223372036854775807
 		elytra = 32000
 		#Energy usage (Joules) of MekaSuit when lessening a potion effect.
 		#Range: 0 ~ 9223372036854775807
-		energyUsagePotionTick = 40000
+		energyUsagePotionTick = 80000
 		#Energy usage (Joules) of MekaSuit when adding 0.1 to sprint motion.
 		#Range: 0 ~ 9223372036854775807
-		sprintBoost = 100
+		sprintBoost = 250
 		#Energy usage (Joules) of MekaSuit per tick when flying via Gravitational Modulation.
 		#Range: 0 ~ 2305843009213693951
 		gravitationalModulation = 1000

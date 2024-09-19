@@ -13,36 +13,35 @@
 			image: "atm:textures/questpics/bees/productive_bees.png"
 			rotation: 0.0d
 			width: 20.0d
-			x: 1.0d
-			y: -10.0d
+			x: 0.0d
+			y: -3.5d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:textures/item/honeycomb.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: -3.0d
-			y: -7.0d
+			x: -4.0d
+			y: -1.0d
 		}
 		{
 			height: 2.0d
 			image: "minecraft:textures/item/honey_bottle.png"
 			rotation: 0.0d
 			width: 2.0d
-			x: 5.0d
-			y: -7.0d
+			x: 3.5d
+			y: -1.0d
 		}
 		{
 			height: 0.3d
-			hover: ["{atm10.quest.ae2.img.star}"]
 			image: "allthetweaks:item/atm_star"
 			rotation: 0.0d
 			width: 0.3d
-			x: -7.99d
-			y: 3.0d
+			x: -8.99d
+			y: 8.9d
 		}
 	]
-	order_index: 2
+	order_index: 4
 	progression_mode: "flexible"
 	quest_links: [ ]
 	quests: [
@@ -56,11 +55,6 @@
 						id: "minecraft:dandelion"
 					}
 					type: "item"
-				}
-				{
-					id: "4D695A49C4060AFD"
-					type: "xp"
-					xp: 10
 				}
 				{
 					count: 2
@@ -81,6 +75,11 @@
 					random_bonus: 2
 					type: "item"
 				}
+				{
+					id: "3319486407EA74B6"
+					type: "xp"
+					xp: 10
+				}
 			]
 			shape: "hexagon"
 			size: 1.5d
@@ -96,8 +95,8 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -6.0d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["29EE878BC8D3A742"]
@@ -116,18 +115,13 @@
 				item: { count: 1, id: "minecraft:beehive" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.5d
+			x: 0.0d
+			y: 4.5d
 		}
 		{
 			dependencies: ["13AA91D39A2CABF2"]
 			id: "29EE878BC8D3A742"
 			rewards: [
-				{
-					id: "495A8E79141F31AC"
-					type: "xp"
-					xp: 10
-				}
 				{
 					id: "3BAFF21709BCF43F"
 					item: {
@@ -136,6 +130,11 @@
 					}
 					type: "item"
 				}
+				{
+					id: "66503B552E577DF4"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				count: 4L
@@ -143,11 +142,14 @@
 				item: { count: 1, id: "productivebees:bee_cage" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: -3.5d
+			x: 0.0d
+			y: 2.5d
 		}
 		{
 			dependencies: ["109AD73F016D576B"]
+			icon: {
+				id: "productivebees:advanced_oak_beehive"
+			}
 			id: "7C169A4A39F37FAC"
 			rewards: [
 				{
@@ -160,9 +162,9 @@
 					type: "item"
 				}
 				{
-					id: "379FD843A5076141"
+					id: "306B583227DDE467"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -172,8 +174,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:advanced_beehives)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 0.5d
+			x: 0.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -216,8 +218,8 @@
 					type: "item"
 				}
 			]
-			x: -4.0d
-			y: 5.0d
+			x: -5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -234,8 +236,8 @@
 				item: { count: 1, id: "productivebees:stone_nest" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 5.5d
+			x: -6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -251,8 +253,8 @@
 				item: { count: 1, id: "productivebees:coarse_dirt_nest" }
 				type: "item"
 			}]
-			x: -4.0d
-			y: 4.0d
+			x: -5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -269,8 +271,8 @@
 				item: { count: 1, id: "productivebees:sand_nest" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 4.5d
+			x: -6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -287,8 +289,8 @@
 				item: { count: 1, id: "productivebees:snow_nest" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 3.5d
+			x: -7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -305,8 +307,8 @@
 				item: { count: 1, id: "productivebees:gravel_nest" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 3.5d
+			x: -6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -323,8 +325,8 @@
 				item: { count: 1, id: "productivebees:sugar_cane_nest" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 4.5d
+			x: -7.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -341,8 +343,8 @@
 				item: { count: 1, id: "productivebees:slimy_nest" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 5.5d
+			x: -7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -359,8 +361,8 @@
 				item: { count: 1, id: "productivebees:glowstone_nest" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 5.5d
+			x: -8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -377,8 +379,8 @@
 				item: { count: 1, id: "productivebees:soul_sand_nest" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 5.5d
+			x: -9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -395,8 +397,8 @@
 				item: { count: 1, id: "productivebees:nether_quartz_nest" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 3.5d
+			x: -8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -413,8 +415,8 @@
 				item: { count: 1, id: "productivebees:nether_brick_nest" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 4.5d
+			x: -8.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -431,8 +433,8 @@
 				item: { count: 1, id: "productivebees:end_stone_nest" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 4.5d
+			x: -9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -449,8 +451,8 @@
 				item: { count: 1, id: "productivebees:obsidian_nest" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 3.5d
+			x: -9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -476,8 +478,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 9.5d
+			x: 0.0d
+			y: 15.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -495,8 +497,8 @@
 				id: "3DE460F842195173"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 12.5d
+			x: -5.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -522,8 +524,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 11.0d
+			x: -5.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -549,8 +551,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 11.0d
+			x: 1.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -576,8 +578,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 10.5d
+			x: 2.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -603,8 +605,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 11.5d
+			x: -2.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -631,12 +633,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 10.0d
+			x: -1.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:clay_ball"
+			}
 			id: "24888CAD50B32B04"
 			rewards: [{
 				id: "40B999E6FCDAC7A8"
@@ -647,8 +652,8 @@
 				id: "4BC7F46B28DC6BA0"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 13.5d
+			x: -4.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -664,9 +669,9 @@
 					type: "item"
 				}
 				{
-					id: "327E963A18728867"
+					id: "472BC4B08D98917C"
 					type: "xp"
-					xp: 10
+					xp: 100
 				}
 			]
 			shape: "gear"
@@ -676,8 +681,8 @@
 				item: { count: 1, id: "productivebees:honey_treat" }
 				type: "item"
 			}]
-			x: 1.0d
-			y: 4.5d
+			x: 0.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["29EE878BC8D3A742"]
@@ -703,25 +708,14 @@
 				item: { count: 1, id: "productivebees:nest_locator" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: -2.5d
+			x: 1.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			id: "66324D7D0C51AEAC"
 			rewards: [
-				{
-					id: "279DEFA11701B0C6"
-					type: "xp"
-					xp: 10
-				}
-				{
-					exclude_from_claim_all: true
-					id: "26D057A4EDC423A9"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 				{
 					id: "6C3A925A7DDEEDD6"
 					item: {
@@ -730,6 +724,17 @@
 					}
 					type: "item"
 				}
+				{
+					exclude_from_claim_all: true
+					id: "7EDF5D0C5DEAC0E0"
+					table_id: 5564196992594175882L
+					type: "random"
+				}
+				{
+					id: "7ADA6B4CC85F69AD"
+					type: "xp"
+					xp: 10
+				}
 			]
 			size: 1.5d
 			tasks: [{
@@ -737,8 +742,8 @@
 				item: { count: 1, id: "productivelib:upgrade_base" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 0.5d
+			x: -4.5d
+			y: 6.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -753,9 +758,9 @@
 					type: "item"
 				}
 				{
-					id: "01C9C90A328265CE"
+					id: "0EA3E1281FF59E31"
 					type: "xp"
-					xp: 100
+					xp: 50
 				}
 			]
 			shape: "hexagon"
@@ -764,8 +769,8 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity" }
 				type: "item"
 			}]
-			x: -5.0d
-			y: 0.5d
+			x: -6.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -790,8 +795,8 @@
 				item: { count: 1, id: "productivelib:upgrade_time" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: -0.5d
+			x: -3.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -817,8 +822,8 @@
 				item: { count: 1, id: "productivelib:upgrade_child" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: 2.0d
+			x: -4.5d
+			y: 8.0d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -844,8 +849,8 @@
 				item: { count: 1, id: "productivelib:upgrade_block" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: -0.5d
+			x: -5.5d
+			y: 5.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -871,8 +876,8 @@
 				item: { count: 1, id: "productivelib:upgrade_anti_teleport" }
 				type: "item"
 			}]
-			x: -3.5d
-			y: -1.0d
+			x: -4.5d
+			y: 5.0d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -898,8 +903,8 @@
 				item: { count: 1, id: "productivelib:upgrade_range" }
 				type: "item"
 			}]
-			x: -2.5d
-			y: 1.5d
+			x: -3.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -925,8 +930,8 @@
 				item: { count: 1, id: "productivelib:upgrade_entity_filter" }
 				type: "item"
 			}]
-			x: -4.5d
-			y: 1.5d
+			x: -5.5d
+			y: 7.5d
 		}
 		{
 			dependencies: ["66324D7D0C51AEAC"]
@@ -951,8 +956,8 @@
 				item: { count: 1, id: "productivelib:upgrade_gene_sampler" }
 				type: "item"
 			}]
-			x: -2.0d
-			y: 0.5d
+			x: -3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -979,8 +984,8 @@
 				item: { components: { "ftbfiltersystem:filter": "or(item(productivebees:centrifuge)item(productivebees:powered_centrifuge)item(productivebees:heated_centrifuge))" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 1.5d
+			x: -1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: [
@@ -993,11 +998,6 @@
 			id: "1D720AC88431BD70"
 			rewards: [
 				{
-					id: "1EF8A565196DEB2C"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 2
 					id: "64643C0983D30385"
 					item: {
@@ -1008,6 +1008,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "1A349E15AA4AC684"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1022,8 +1027,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 4.5d
+			x: 7.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["117241986C99E475"]
@@ -1032,11 +1037,6 @@
 			}
 			id: "100ACB5C8A359BF0"
 			rewards: [
-				{
-					id: "7633FEC136EBA1D4"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "1ED82242D8118B20"
@@ -1048,6 +1048,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "403D370B0709F789"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1062,8 +1067,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 4.5d
+			x: 6.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["437DB2CE10D33A08"]
@@ -1073,11 +1078,6 @@
 			}
 			id: "117241986C99E475"
 			rewards: [
-				{
-					id: "1AA439A6CAB4A90A"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "6B3492675986DE8A"
@@ -1089,6 +1089,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "0018B3107C93B218"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1103,8 +1108,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 5.5d
+			x: 6.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1114,11 +1119,6 @@
 			}
 			id: "5F1784E562C29B66"
 			rewards: [
-				{
-					id: "1EC07E1836DAB17A"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "0E73A093C803C622"
@@ -1130,6 +1130,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "2363D0D66616EFA0"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1144,8 +1149,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 3.5d
+			x: 7.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4C0302FF4F63B52E"]
@@ -1155,11 +1160,6 @@
 			}
 			id: "437DB2CE10D33A08"
 			rewards: [
-				{
-					id: "7274DFEAC7126A2D"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "7A5A8AC95C18EA92"
@@ -1171,6 +1171,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "04ED5C7D50683DD9"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1185,12 +1190,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 5.0d
+			x: 5.0d
+			y: 11.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:wooden_pickaxe"
+			}
 			id: "486060882E507CF1"
 			rewards: [{
 				id: "6C008390E836F306"
@@ -1201,12 +1209,15 @@
 				id: "4DFDEAD81868CEF4"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 12.5d
+			x: -6.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:blue_dye"
+			}
 			id: "2CA4D7253DA1825F"
 			rewards: [{
 				id: "0D9788B0439CE954"
@@ -1217,8 +1228,8 @@
 				id: "12A2CE1C3AE8A033"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 15.5d
+			x: -5.0d
+			y: 21.5d
 		}
 		{
 			dependencies: [
@@ -1231,11 +1242,6 @@
 			id: "5563BD4934297522"
 			rewards: [
 				{
-					id: "0FE7E2772FA1C09A"
-					type: "xp"
-					xp: 100
-				}
-				{
 					count: 2
 					id: "4A130E264C080131"
 					item: {
@@ -1246,6 +1252,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "4E02CE828408240A"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1260,8 +1271,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 3.5d
+			x: 6.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["4C0302FF4F63B52E"]
@@ -1270,11 +1281,6 @@
 			}
 			id: "39A19138C501B16F"
 			rewards: [
-				{
-					id: "5E11CF7211ADB15A"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "41FFBD14B36FECA9"
@@ -1286,6 +1292,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "20336382D4565975"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1300,8 +1311,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 4.0d
+			x: 5.0d
+			y: 10.0d
 		}
 		{
 			dependencies: ["1D720AC88431BD70"]
@@ -1310,11 +1321,6 @@
 			}
 			id: "2CA3707BEE2E3C0D"
 			rewards: [
-				{
-					id: "36535E022831C4FD"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "73FB1BE90BCEF2BA"
@@ -1326,6 +1332,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "51A4DAF850CC42BE"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1340,8 +1351,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 4.5d
+			x: 8.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["76E94639E90FEB4E"]
@@ -1350,11 +1361,6 @@
 			}
 			id: "399882F3C51DD282"
 			rewards: [
-				{
-					id: "095AA005F163ECC5"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "2B0C0EB3246429CA"
@@ -1366,6 +1372,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "4F13B43E139C5327"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1380,8 +1391,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 10.0d
-			y: 3.5d
+			x: 9.0d
+			y: 9.5d
 		}
 		{
 			dependencies: [
@@ -1392,18 +1403,17 @@
 				id: "allthemodium:allthemodium_ingot"
 			}
 			id: "6EFFF0DC80C1C8A3"
-			invisible: true
 			rewards: [
-				{
-					id: "43280AD345FCEAC4"
-					type: "xp"
-					xp: 100
-				}
 				{
 					exclude_from_claim_all: true
 					id: "4328B4BBA9A222F2"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "20835B70D7692BE6"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1411,8 +1421,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:allthemodium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 4.5d
+			x: 9.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -1422,11 +1432,6 @@
 			}
 			id: "76E94639E90FEB4E"
 			rewards: [
-				{
-					id: "70F080D7463D7B92"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "59BD5E41D3B8EE0E"
@@ -1438,6 +1443,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "44F03279C1CFBE4C"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1452,8 +1462,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 9.0d
-			y: 3.5d
+			x: 8.0d
+			y: 9.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1463,11 +1473,6 @@
 			}
 			id: "00FD36C207845895"
 			rewards: [
-				{
-					id: "7BB5EF8129DEFE69"
-					type: "xp"
-					xp: 100
-				}
 				{
 					count: 2
 					id: "4A0DF3F64E1B7C94"
@@ -1479,6 +1484,11 @@
 						id: "productivebees:configurable_honeycomb"
 					}
 					type: "item"
+				}
+				{
+					id: "49777B21FF0970EA"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1493,8 +1503,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 8.0d
-			y: 5.5d
+			x: 7.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1505,18 +1515,17 @@
 				id: "allthemodium:vibranium_ingot"
 			}
 			id: "6E819CCD57B15D54"
-			invisible: true
 			rewards: [
-				{
-					id: "525D801E1FF98425"
-					type: "xp"
-					xp: 100
-				}
 				{
 					exclude_from_claim_all: true
 					id: "1FDBF76E4CB0BB03"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "0F0BFA4465C0C95F"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1524,8 +1533,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:vibranium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 9.0d
-			y: 5.5d
+			x: 8.0d
+			y: 11.5d
 		}
 		{
 			dependencies: [
@@ -1536,18 +1545,17 @@
 				id: "allthemodium:unobtainium_ingot"
 			}
 			id: "2BE538246C672689"
-			invisible: true
 			rewards: [
-				{
-					id: "4E4DBE9FF2C1BBD0"
-					type: "xp"
-					xp: 100
-				}
 				{
 					exclude_from_claim_all: true
 					id: "752568EB48133C34"
 					table_id: 5564196992594175882L
 					type: "random"
+				}
+				{
+					id: "13C87DB20767067D"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -1555,8 +1563,8 @@
 				item: { components: { "productivebees:bee_type": "productivebees:unobtainium" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: 10.0d
-			y: 5.5d
+			x: 9.0d
+			y: 11.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1582,8 +1590,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 12.5d
+			x: 0.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1609,8 +1617,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 14.0d
+			x: -1.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1636,8 +1644,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 0.0d
-			y: 11.0d
+			x: -1.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1663,8 +1671,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 10.5d
+			x: 0.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1679,19 +1687,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:blazing_crystal"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "6B7DB7E426D328BC"
-				item: { components: { "productivebees:bee_type": "productivebees:blazing_crystal" }, count: 1, id: "productivebees:configurable_honeycomb" }
-				match_components: "fuzzy"
+				id: "32D38975C72D55CC"
+				item: { components: { "productivebees:bee_type": "productivebees:blazing" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				type: "item"
 			}]
-			x: -1.0d
-			y: 10.5d
+			x: -2.0d
+			y: 16.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1717,12 +1718,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 14.5d
+			x: 0.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "croptopia:tea_leaves"
+			}
 			id: "6BEE3578BD2C713C"
 			rewards: [{
 				id: "1C28FA3EA99E8BF1"
@@ -1733,8 +1737,8 @@
 				id: "4A6ADD52B113E3CA"
 				type: "checkmark"
 			}]
-			x: -4.0d
-			y: 14.0d
+			x: -5.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1749,8 +1753,8 @@
 				id: "0CDFF60D581118E3"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 16.5d
+			x: -6.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1768,12 +1772,15 @@
 				id: "64248C6FBC867D56"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 15.5d
+			x: -4.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:sugar_cane"
+			}
 			id: "097DE7038A746847"
 			rewards: [{
 				id: "447B59A2C9693336"
@@ -1784,8 +1791,8 @@
 				id: "6887F86C8673DAF6"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 15.5d
+			x: -6.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -1802,12 +1809,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -4.0d
-			y: 17.0d
+			x: -5.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:snowball"
+			}
 			id: "447CAC472A99835B"
 			rewards: [{
 				id: "5F80C0F9DAB3D6F7"
@@ -1818,12 +1828,15 @@
 				id: "0A77407CE9055F04"
 				type: "checkmark"
 			}]
-			x: -5.0d
-			y: 13.5d
+			x: -6.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:yellow_dye"
+			}
 			id: "2226555D9552236E"
 			rewards: [{
 				id: "42FD59C35B7B5AD1"
@@ -1834,14 +1847,14 @@
 				id: "3CDFAF37BFB1C89C"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 14.5d
+			x: -4.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
 			icon: {
-				id: "minecraft:gravel"
+				id: "minecraft:zombie_head"
 			}
 			id: "371E09ED2A3F6BDC"
 			rewards: [{
@@ -1850,19 +1863,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:zombie"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "71E81E13769F2FF0"
+				id: "52CC71A679432ABF"
 				item: { components: { "productivebees:bee_type": "productivebees:zombie" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -3.0d
-			y: 12.5d
+			x: -4.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1888,8 +1895,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 13.5d
+			x: 0.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1904,19 +1911,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:coal"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "3EDE79B7957D45AF"
+				id: "5CDE248B0C86A6A8"
 				item: { components: { "productivebees:bee_type": "productivebees:coal" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 10.0d
+			x: 1.0d
+			y: 16.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -1942,12 +1943,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 14.0d
+			x: 1.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "artifacts:crystal_heart"
+			}
 			id: "2E51F09F6D9E5EF8"
 			rewards: [{
 				id: "228543A8ADEDCE7E"
@@ -1958,12 +1962,15 @@
 				id: "34C16667CDF3E53A"
 				type: "checkmark"
 			}]
-			x: -1.0d
-			y: 14.5d
+			x: -2.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:red_dye"
+			}
 			id: "5962DC39E5874FB9"
 			rewards: [{
 				id: "29F6DF8F52E48EC6"
@@ -1974,8 +1981,8 @@
 				id: "4FC90CCB41E58D5A"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 15.5d
+			x: 0.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2001,8 +2008,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 12.5d
+			x: -2.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2017,19 +2024,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:experience"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "1E28BFC0AB5CF2FE"
+				id: "7C03568830DB2B1B"
 				item: { components: { "productivebees:bee_type": "productivebees:experience" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 15.5d
+			x: -2.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2047,8 +2048,8 @@
 				id: "212BB84583FE4B8B"
 				type: "checkmark"
 			}]
-			x: 2.0d
-			y: 16.0d
+			x: 1.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2074,12 +2075,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 13.5d
+			x: -2.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:oak_log"
+			}
 			id: "37045B986619A03D"
 			rewards: [{
 				id: "32F2905E46B0A46F"
@@ -2090,8 +2094,8 @@
 				id: "6047113DC2263E46"
 				type: "checkmark"
 			}]
-			x: 3.0d
-			y: 15.5d
+			x: 2.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2117,26 +2121,29 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 12.5d
+			x: 2.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "integrateddynamics:crystalized_menril_chunk"
+			}
 			id: "7B40A9DAA119DE59"
-			invisible: true
 			rewards: [{
 				id: "1FD5CBE1FB0136F8"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "17A701D610343DE2"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "2127300009B87B98"
+				item: { components: { "productivebees:bee_type": "productivebees:menril" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 17.0d
+			x: 5.0d
+			y: 23.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2161,8 +2168,8 @@
 				item: { components: { "ftbfiltersystem:filter": "component(fuzzy:{\"productivebees:bee_type\":\"productivebees:nickel\"})" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 0.0d
-			y: 12.0d
+			x: -1.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2188,8 +2195,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 16.5d
+			x: 0.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2215,12 +2222,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 11.5d
+			x: 2.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "modern_industrialization:electric_quarry"
+			}
 			id: "6E093D16B12E12B3"
 			rewards: [{
 				id: "5865B75ED379363E"
@@ -2231,8 +2241,8 @@
 				id: "471F062B01D0DDA1"
 				type: "checkmark"
 			}]
-			x: 0.0d
-			y: 16.0d
+			x: -1.0d
+			y: 22.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2258,8 +2268,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 2.0d
-			y: 12.0d
+			x: 1.0d
+			y: 18.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2279,8 +2289,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 14.5d
+			x: 2.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2306,8 +2316,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 13.5d
+			x: 2.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2333,8 +2343,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -1.0d
-			y: 16.5d
+			x: -2.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2360,8 +2370,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 1.0d
-			y: 11.5d
+			x: 0.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2387,8 +2397,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 3.0d
-			y: 16.5d
+			x: 2.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2407,8 +2417,8 @@
 				item: { count: 1, id: "productivebees:honeycomb_ghostly" }
 				type: "item"
 			}]
-			x: -3.0d
-			y: 16.5d
+			x: -4.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2434,12 +2444,15 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: -5.0d
-			y: 11.5d
+			x: -6.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "productivebees:treat_on_a_stick"
+			}
 			id: "7941938014E97A30"
 			rewards: [{
 				id: "10E2A71BE96232EF"
@@ -2458,12 +2471,15 @@
 					type: "item"
 				}
 			]
-			x: -5.0d
-			y: 14.5d
+			x: -6.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
 			hide_dependency_lines: true
+			icon: {
+				id: "minecraft:iron_shovel"
+			}
 			id: "1C474B46AECCCFE9"
 			rewards: [{
 				id: "3202C04BE7D817FE"
@@ -2474,8 +2490,8 @@
 				id: "6E0961A56194F0A8"
 				type: "checkmark"
 			}]
-			x: -3.0d
-			y: 11.5d
+			x: -4.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2501,8 +2517,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 11.0d
+			x: 5.0d
+			y: 17.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2517,19 +2533,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:brown_shroom"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "30FE30A7FA067459"
+				id: "300C19B265208FC7"
 				item: { components: { "productivebees:bee_type": "productivebees:brown_shroom" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 11.5d
+			x: 6.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2541,11 +2551,12 @@
 				xp: 10
 			}]
 			tasks: [{
-				id: "632F557D97247215"
-				type: "checkmark"
+				id: "620BF9687558DE44"
+				item: { count: 1, id: "minecraft:hopper" }
+				type: "item"
 			}]
-			x: 7.0d
-			y: 16.5d
+			x: 6.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2565,8 +2576,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 11.5d
+			x: 4.0d
+			y: 17.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2592,8 +2603,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 12.5d
+			x: 6.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2619,8 +2630,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 15.5d
+			x: 4.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2635,19 +2646,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:frosty"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "7CD2C8E1A5F4B3D2"
+				id: "2621BC76378ECB14"
 				item: { components: { "productivebees:bee_type": "productivebees:frosty" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 13.5d
+			x: 6.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2659,11 +2664,12 @@
 				xp: 100
 			}]
 			tasks: [{
-				id: "0F45E8D41C62BE78"
-				type: "checkmark"
+				id: "35A3A62D353F599D"
+				item: { count: 1, id: "minecraft:shulker_shell" }
+				type: "item"
 			}]
-			x: 5.0d
-			y: 16.5d
+			x: 4.0d
+			y: 22.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2689,26 +2695,29 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 12.5d
+			x: 4.0d
+			y: 18.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "mysticalagriculture:prosperity_shard"
+			}
 			id: "55882C10292B6A3D"
-			invisible: true
 			rewards: [{
 				id: "677634D163F8DDDB"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "492B9A5429144235"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "5CFB7A3119C24CF3"
+				item: { components: { "productivebees:bee_type": "productivebees:prosperity" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 14.0d
+			x: 5.0d
+			y: 20.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2723,19 +2732,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:red_shroom"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "39899761508BFACE"
+				id: "0AF5A24F621B3951"
 				item: { components: { "productivebees:bee_type": "productivebees:red_shroom" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 14.5d
+			x: 6.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2761,8 +2764,8 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 13.5d
+			x: 4.0d
+			y: 19.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2788,26 +2791,29 @@
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 5.0d
-			y: 14.5d
+			x: 4.0d
+			y: 20.5d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
 			hide_dependency_lines: true
+			icon: {
+				id: "mysticalagriculture:soulium_ingot"
+			}
 			id: "1EBD5E4410A6DF34"
-			invisible: true
 			rewards: [{
 				id: "7DA224232096A3B0"
 				type: "xp"
 				xp: 100
 			}]
 			tasks: [{
-				id: "2B544167D91A9427"
-				item: { components: { "mekanism:fluids": { fluid_tanks: [{ amount: 2147483647, id: "minecraft:water" }] } }, count: 1, id: "mekanism:creative_fluid_tank" }
+				id: "05B2096DAF6C608E"
+				item: { components: { "productivebees:bee_type": "productivebees:soulium" }, count: 1, id: "productivebees:configurable_honeycomb" }
+				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 6.0d
-			y: 13.0d
+			x: 5.0d
+			y: 19.0d
 		}
 		{
 			dependencies: ["17419401147B5C02"]
@@ -2822,19 +2828,13 @@
 				xp: 100
 			}]
 			tasks: [{
-				icon: {
-					components: {
-						"productivebees:bee_type": "productivebees:warped"
-					}
-					id: "productivebees:configurable_honeycomb"
-				}
-				id: "094F0FCF9A64EE00"
+				id: "0670FAD3200A2A5A"
 				item: { components: { "productivebees:bee_type": "productivebees:warped" }, count: 1, id: "productivebees:configurable_honeycomb" }
 				match_components: "fuzzy"
 				type: "item"
 			}]
-			x: 7.0d
-			y: 15.5d
+			x: 6.0d
+			y: 21.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2848,8 +2848,8 @@
 				id: "2153473228DA4678"
 				type: "checkmark"
 			}]
-			x: 1.0d
-			y: 7.5d
+			x: 0.0d
+			y: 13.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2863,11 +2863,14 @@
 				id: "359396879CBA62D5"
 				type: "checkmark"
 			}]
-			x: -2.0d
-			y: 4.5d
+			x: -3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
+			icon: {
+				id: "productivebees:expansion_box_oak"
+			}
 			id: "47CEFA06392C4211"
 			rewards: [
 				{
@@ -2881,9 +2884,9 @@
 					type: "item"
 				}
 				{
-					id: "1824DE857066CD43"
+					id: "5B44F1F9E0D9F5EA"
 					type: "xp"
-					xp: 10
+					xp: 50
 				}
 			]
 			tasks: [{
@@ -2891,8 +2894,8 @@
 				item: { components: { "ftbfiltersystem:filter": "item_tag(productivebees:expansion_boxes)" }, count: 1, id: "ftbfiltersystem:smart_filter" }
 				type: "item"
 			}]
-			x: 2.0d
-			y: 1.5d
+			x: 1.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["131EC039435B8878"]
@@ -2906,19 +2909,14 @@
 				id: "6754D9E162472CA1"
 				type: "checkmark"
 			}]
-			x: 4.0d
-			y: 4.5d
+			x: 3.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
 			hide_dependency_lines: true
 			id: "419DD6FE84B91749"
 			rewards: [
-				{
-					id: "5C1387EEB2AC5D4E"
-					type: "xp"
-					xp: 10
-				}
 				{
 					count: 2
 					id: "5E255C49AD125390"
@@ -2928,14 +2926,19 @@
 					}
 					type: "item"
 				}
+				{
+					id: "0465B5524AB936C1"
+					type: "xp"
+					xp: 10
+				}
 			]
 			tasks: [{
 				id: "2E829A75260DFF75"
 				item: { count: 1, id: "productivebees:gene_indexer" }
 				type: "item"
 			}]
-			x: 4.0d
-			y: 0.5d
+			x: 3.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -2956,20 +2959,14 @@
 					type: "xp"
 					xp: 10
 				}
-				{
-					exclude_from_claim_all: true
-					id: "2560F92C8A497C16"
-					table_id: 487623848494439020L
-					type: "random"
-				}
 			]
 			tasks: [{
 				id: "531FB6E56B95C1CA"
 				item: { count: 1, id: "productivebees:bottler" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 0.5d
+			x: 4.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -2996,8 +2993,8 @@
 				item: { count: 1, id: "productivebees:catcher" }
 				type: "item"
 			}]
-			x: 6.0d
-			y: 0.5d
+			x: 5.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -3024,8 +3021,8 @@
 				item: { count: 1, id: "productivebees:incubator" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: -0.5d
+			x: 4.0d
+			y: 5.5d
 		}
 		{
 			dependencies: ["7C169A4A39F37FAC"]
@@ -3052,8 +3049,8 @@
 				item: { count: 1, id: "productivebees:jar_oak" }
 				type: "item"
 			}]
-			x: 5.0d
-			y: 1.5d
+			x: 4.0d
+			y: 7.5d
 		}
 		{
 			dependencies: ["120BDCB70AD352AC"]
@@ -3069,23 +3066,23 @@
 				item: { count: 1, id: "productivebees:nether_gold_nest" }
 				type: "item"
 			}]
-			x: -9.0d
-			y: 4.5d
+			x: -10.0d
+			y: 10.5d
 		}
 		{
 			dependencies: ["6DBF9CAB37B9BBF3"]
 			id: "01A0612C516B4F7F"
 			rewards: [
 				{
-					id: "78311D0F7C60994E"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "53466516293198D5"
 					table_id: 4196188979167302596L
 					type: "random"
+				}
+				{
+					id: "28133B0FFC3269DB"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
@@ -3093,23 +3090,23 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_2" }
 				type: "item"
 			}]
-			x: -6.0d
-			y: 0.5d
+			x: -7.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["01A0612C516B4F7F"]
 			id: "58ACADCBA57BC1DB"
 			rewards: [
 				{
-					id: "0156FA9A01DFAC03"
-					type: "xp"
-					xp: 25
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7DFAC9BC1DF0F99D"
 					table_id: 4196188979167302596L
 					type: "loot"
+				}
+				{
+					id: "3369265CFC323286"
+					type: "xp"
+					xp: 150
 				}
 			]
 			tasks: [{
@@ -3117,23 +3114,23 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_3" }
 				type: "item"
 			}]
-			x: -7.0d
-			y: 0.5d
+			x: -8.0d
+			y: 6.5d
 		}
 		{
 			dependencies: ["58ACADCBA57BC1DB"]
 			id: "4DDF647FE6494DE1"
 			rewards: [
 				{
-					id: "78E6295E2CD504BD"
-					type: "xp"
-					xp: 50
-				}
-				{
 					exclude_from_claim_all: true
 					id: "7C1C2FCB825216F2"
 					table_id: 5564196992594175882L
 					type: "loot"
+				}
+				{
+					id: "701899D7386C5160"
+					type: "xp"
+					xp: 200
 				}
 			]
 			tasks: [{
@@ -3141,8 +3138,8 @@
 				item: { count: 1, id: "productivelib:upgrade_productivity_4" }
 				type: "item"
 			}]
-			x: -8.0d
-			y: 0.5d
+			x: -9.0d
+			y: 6.5d
 		}
 		{
 			id: "0A11725B41AB45F6"
@@ -3158,8 +3155,8 @@
 					type: "checkmark"
 				}
 			]
-			x: 0.0d
-			y: -2.5d
+			x: -1.0d
+			y: 3.5d
 		}
 	]
 }

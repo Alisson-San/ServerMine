@@ -63,7 +63,7 @@ pressurizedReactionBase = 5
 fluidicPlenisher = 100
 #Energy per operation in Joules of: Laser
 #Range: 0 ~ 9223372036854775807
-laser = 10000
+laser = 50000
 #Energy per operation in Joules of: Formulaic Assemblicator
 #Range: 0 ~ 9223372036854775807
 formulaicAssemblicator = 100
