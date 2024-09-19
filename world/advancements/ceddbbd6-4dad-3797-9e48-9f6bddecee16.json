@@ -92,6 +92,7 @@
       "blackwood_taiga": "2024-08-22 15:21:28 +0000",
       "rocky_meadow": "2024-08-24 05:30:35 +0000",
       "mycotoxic_undergrowth": "2024-08-24 02:00:25 +0000",
+      "ochard": "2024-09-14 19:43:23 +0000",
       "flower_fields": "2024-08-28 23:33:05 +0000",
       "gravel_beach": "2024-08-23 23:11:09 +0000",
       "highland_fields": "2024-08-28 23:26:45 +0000",
@@ -99,6 +100,7 @@
       "frozen_pine_taiga": "2024-08-29 23:11:12 +0000",
       "maple_forest": "2024-09-01 00:14:12 +0000",
       "golden_boreal_taiga": "2024-09-02 01:29:00 +0000",
+      "hyacinth_deeps": "2024-09-14 20:16:09 +0000",
       "magnolia_highlands": "2024-08-24 05:26:58 +0000",
       "bioshroom_caves": "2024-08-28 23:27:30 +0000",
       "lupine_plains": "2024-08-24 05:23:11 +0000"
@@ -129,6 +131,7 @@
       "grassy_beach": "2024-08-22 21:42:33 +0000",
       "blackwood_taiga": "2024-08-22 15:21:28 +0000",
       "rocky_meadow": "2024-08-24 05:30:35 +0000",
+      "ochard": "2024-09-14 19:43:23 +0000",
       "flower_fields": "2024-08-28 23:33:05 +0000",
       "gravel_beach": "2024-08-23 23:11:09 +0000",
       "highland_fields": "2024-08-28 23:26:45 +0000",
@@ -136,6 +139,7 @@
       "frozen_pine_taiga": "2024-08-29 23:11:12 +0000",
       "maple_forest": "2024-09-01 00:14:12 +0000",
       "golden_boreal_taiga": "2024-09-02 01:29:00 +0000",
+      "hyacinth_deeps": "2024-09-14 20:16:09 +0000",
       "magnolia_highlands": "2024-08-24 05:26:58 +0000",
       "lupine_plains": "2024-08-24 05:23:11 +0000"
     },
@@ -333,6 +337,7 @@
       "minecraft:pillager": "2024-08-25 03:52:44 +0000",
       "minecraft:skeleton": "2024-08-22 21:29:20 +0000",
       "minecraft:elder_guardian": "2024-09-12 20:55:05 +0000",
+      "minecraft:zoglin": "2024-09-14 22:32:04 +0000",
       "minecraft:ravager": "2024-09-02 01:45:20 +0000",
       "minecraft:ghast": "2024-09-07 23:39:42 +0000",
       "minecraft:hoglin": "2024-09-07 23:38:27 +0000",
@@ -411,6 +416,7 @@
       "minecraft:snowy_beach": "2024-08-29 23:03:06 +0000",
       "minecraft:windswept_savanna": "2024-08-24 05:21:48 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-09-12 20:50:16 +0000",
+      "minecraft:flower_forest": "2024-09-14 20:12:34 +0000",
       "minecraft:beach": "2024-08-24 03:13:30 +0000",
       "minecraft:dark_forest": "2024-08-24 00:42:01 +0000",
       "minecraft:mangrove_swamp": "2024-09-02 21:40:02 +0000",
@@ -424,8 +430,10 @@
       "minecraft:deep_dark": "2024-09-01 00:22:58 +0000",
       "minecraft:swamp": "2024-08-23 23:11:48 +0000",
       "minecraft:grove": "2024-09-01 00:29:13 +0000",
+      "minecraft:meadow": "2024-09-14 19:47:59 +0000",
       "minecraft:savanna": "2024-09-02 21:42:20 +0000",
-      "minecraft:plains": "2024-08-24 05:28:51 +0000"
+      "minecraft:plains": "2024-08-24 05:28:51 +0000",
+      "minecraft:jagged_peaks": "2024-09-14 19:55:06 +0000"
     },
     "done": false
   },
@@ -1018,7 +1026,8 @@
   },
   "repurposed_structures:temples": {
     "criteria": {
-      "in_temple_nether_wasteland": "2024-08-26 20:48:06 +0000"
+      "in_temple_nether_wasteland": "2024-08-26 20:48:06 +0000",
+      "in_temple_taiga": "2024-09-14 20:26:30 +0000"
     },
     "done": false
   },
@@ -1668,6 +1677,142 @@
   "the_bumblezone:combs_and_wax/craft_beeswax_to_beehive": {
     "criteria": {
       "craft_beeswax_to_beehive": "2024-09-13 02:21:56 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/root": {
+    "criteria": {
+      "tick": "2024-09-14 04:37:09 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/husbandry/root": {
+    "criteria": {
+      "consumed_item": "2024-09-14 17:21:53 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
+    "criteria": {
+      "biomeswevegone:black_forest": "2024-09-14 20:22:43 +0000",
+      "biomeswevegone:maple_taiga": "2024-09-14 19:52:26 +0000",
+      "biomeswevegone:orchard": "2024-09-14 20:10:07 +0000",
+      "biomeswevegone:pumpkin_valley": "2024-09-14 20:00:21 +0000",
+      "biomeswevegone:cypress_swamplands": "2024-09-14 19:42:18 +0000",
+      "biomeswevegone:prairie": "2024-09-14 19:46:05 +0000",
+      "biomeswevegone:basalt_barrera": "2024-09-14 19:42:11 +0000",
+      "biomeswevegone:allium_shrubland": "2024-09-14 19:47:13 +0000",
+      "biomeswevegone:coconino_meadow": "2024-09-14 20:07:25 +0000",
+      "biomeswevegone:dacite_ridges": "2024-09-14 20:18:30 +0000"
+    },
+    "done": false
+  },
+  "biomeswevegone:biomeswevegone/adventure/root": {
+    "criteria": {
+      "biomeswevegone:basalt_barrera": "2024-09-14 19:42:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/salvage_sherd": {
+    "criteria": {
+      "has_sherd": "2024-09-14 20:03:08 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/totem_of_undying": {
+    "criteria": {
+      "used_totem": "2024-09-15 03:04:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/netherite_armor": {
+    "criteria": {
+      "netherite_armor": "2024-09-15 06:25:52 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:advanced_upgrade": {
+    "criteria": {
+      "checkInv": "2024-09-15 17:13:26 +0000"
+    },
+    "done": true
+  },
+  "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed": {
+    "criteria": {
+      "apple": "2024-09-15 19:29:37 +0000"
+    },
+    "done": false
+  },
+  "modern_industrialization:titanium_ingot": {
+    "criteria": {
+      "checkInv": "2024-09-16 19:46:19 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:turbo_upgrade": {
+    "criteria": {
+      "checkInv": "2024-09-16 21:05:16 +0000"
+    },
+    "done": true
+  },
+  "modern_industrialization:pressurizer": {
+    "criteria": {
+      "checkInv": "2024-09-17 04:38:41 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/make_arcane_anvil": {
+    "criteria": {
+      "arcane_anvil": "2024-09-17 06:15:31 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_dragon": {
+    "criteria": {
+      "requirement": "2024-09-17 06:25:23 +0000"
+    },
+    "done": true
+  },
+  "irons_spellbooks:irons_spellbooks/spell_book_equip": {
+    "criteria": {
+      "requirement": "2024-09-17 06:25:32 +0000"
+    },
+    "done": true
+  },
+  "mekanism:chemical_crystallizer": {
+    "criteria": {
+      "chemical_dissolution_chamber": "2024-09-17 18:59:16 +0000",
+      "chemical_crystallizer": "2024-09-19 03:08:46 +0000"
+    },
+    "done": false
+  },
+  "mekanism:waste_removal": {
+    "criteria": {
+      "radioactive_waste_barrel": "2024-09-17 21:16:48 +0000"
+    },
+    "done": true
+  },
+  "mekanismgenerators:solar_generator": {
+    "criteria": {
+      "solar_generator": "2024-09-18 01:56:44 +0000"
+    },
+    "done": true
+  },
+  "mekanism:sna": {
+    "criteria": {
+      "solar_neutron_activator": "2024-09-18 01:56:54 +0000"
+    },
+    "done": true
+  },
+  "mekanism:polonium": {
+    "criteria": {
+      "pellet_polonium": "2024-09-18 02:25:41 +0000"
+    },
+    "done": true
+  },
+  "mekanism:radiation_poisoning": {
+    "criteria": {
+      "poisoned": "2024-09-18 02:52:35 +0000"
     },
     "done": true
   },
