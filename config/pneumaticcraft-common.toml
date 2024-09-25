@@ -47,7 +47,7 @@
 	electrostatic_lightning_chance = 100000
 	#The max height of an elevator per stacked Elevator Base block.
 	#Range: 1 ~ 256
-	elevator_base_blocks_per_base = 6
+	elevator_base_blocks_per_base = 256
 	#The amount of air produced by using 100 FE (Forge Energy) in the flux compressor
 	#Range: > 0
 	flux_compressor_efficiency = 40
@@ -358,4 +358,4 @@
 	allow_teleport_to_protected_area = true
 	#Time in seconds after a player logs out that drones and Programmable Controllers belonging to that player can no long chunk-load. Set to 0 to allow indefinite offline chunkloading.
 	#Range: > 0
-	chunkload_offline_time = 0
+	chunkload_offline_time = 300
