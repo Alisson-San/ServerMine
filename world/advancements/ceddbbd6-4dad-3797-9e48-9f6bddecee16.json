@@ -77,6 +77,7 @@
       "towering_cliffs": "2024-08-24 00:42:17 +0000",
       "prismachasm": "2024-08-28 23:27:27 +0000",
       "infernal_holt": "2024-08-31 02:31:49 +0000",
+      "bamboo_forest": "2024-09-21 06:59:25 +0000",
       "cold_boreal_taiga": "2024-08-29 23:11:01 +0000",
       "ancient_delta": "2024-08-22 20:46:59 +0000",
       "marsh": "2024-09-02 21:39:44 +0000",
@@ -89,6 +90,7 @@
       "old_growth_bayou": "2024-08-22 15:22:03 +0000",
       "grassy_beach": "2024-08-22 21:42:33 +0000",
       "scorching_caves": "2024-09-01 02:23:38 +0000",
+      "prairie": "2024-09-21 07:08:25 +0000",
       "blackwood_taiga": "2024-08-22 15:21:28 +0000",
       "rocky_meadow": "2024-08-24 05:30:35 +0000",
       "mycotoxic_undergrowth": "2024-08-24 02:00:25 +0000",
@@ -101,6 +103,7 @@
       "maple_forest": "2024-09-01 00:14:12 +0000",
       "golden_boreal_taiga": "2024-09-02 01:29:00 +0000",
       "hyacinth_deeps": "2024-09-14 20:16:09 +0000",
+      "rainforest": "2024-09-21 07:58:29 +0000",
       "magnolia_highlands": "2024-08-24 05:26:58 +0000",
       "bioshroom_caves": "2024-08-28 23:27:30 +0000",
       "lupine_plains": "2024-08-24 05:23:11 +0000"
@@ -120,6 +123,7 @@
       "muddy_river": "2024-08-24 05:20:28 +0000",
       "autumnal_maple_forest": "2024-09-03 01:37:55 +0000",
       "towering_cliffs": "2024-08-24 00:42:17 +0000",
+      "bamboo_forest": "2024-09-21 06:59:25 +0000",
       "cold_boreal_taiga": "2024-08-29 23:11:01 +0000",
       "marsh": "2024-09-02 21:39:44 +0000",
       "willow_forest": "2024-08-24 05:23:22 +0000",
@@ -129,6 +133,7 @@
       "poppy_fields": "2024-09-03 01:37:43 +0000",
       "old_growth_bayou": "2024-08-22 15:22:03 +0000",
       "grassy_beach": "2024-08-22 21:42:33 +0000",
+      "prairie": "2024-09-21 07:08:25 +0000",
       "blackwood_taiga": "2024-08-22 15:21:28 +0000",
       "rocky_meadow": "2024-08-24 05:30:35 +0000",
       "ochard": "2024-09-14 19:43:23 +0000",
@@ -140,6 +145,7 @@
       "maple_forest": "2024-09-01 00:14:12 +0000",
       "golden_boreal_taiga": "2024-09-02 01:29:00 +0000",
       "hyacinth_deeps": "2024-09-14 20:16:09 +0000",
+      "rainforest": "2024-09-21 07:58:29 +0000",
       "magnolia_highlands": "2024-08-24 05:26:58 +0000",
       "lupine_plains": "2024-08-24 05:23:11 +0000"
     },
@@ -339,6 +345,7 @@
       "minecraft:elder_guardian": "2024-09-12 20:55:05 +0000",
       "minecraft:zoglin": "2024-09-14 22:32:04 +0000",
       "minecraft:ravager": "2024-09-02 01:45:20 +0000",
+      "minecraft:bogged": "2024-09-21 06:53:21 +0000",
       "minecraft:ghast": "2024-09-07 23:39:42 +0000",
       "minecraft:hoglin": "2024-09-07 23:38:27 +0000",
       "minecraft:guardian": "2024-09-12 20:55:17 +0000",
@@ -354,6 +361,7 @@
       "minecraft:zombified_piglin": "2024-08-25 00:54:22 +0000",
       "minecraft:witch": "2024-08-24 05:59:21 +0000",
       "minecraft:wither_skeleton": "2024-08-25 00:05:14 +0000",
+      "minecraft:husk": "2024-09-21 07:25:40 +0000",
       "minecraft:ender_dragon": "2024-09-04 00:01:53 +0000",
       "minecraft:shulker": "2024-09-03 01:59:26 +0000",
       "minecraft:cave_spider": "2024-08-29 23:06:42 +0000",
@@ -404,6 +412,7 @@
       "minecraft:deep_ocean": "2024-08-24 05:29:17 +0000",
       "minecraft:deep_cold_ocean": "2024-08-29 22:54:48 +0000",
       "minecraft:frozen_ocean": "2024-08-29 23:10:42 +0000",
+      "minecraft:desert": "2024-09-21 07:20:16 +0000",
       "minecraft:frozen_river": "2024-08-29 23:03:06 +0000",
       "minecraft:windswept_forest": "2024-08-23 23:15:40 +0000",
       "minecraft:ocean": "2024-08-23 22:55:31 +0000",
@@ -414,7 +423,9 @@
       "minecraft:windswept_hills": "2024-08-23 23:15:43 +0000",
       "minecraft:old_growth_spruce_taiga": "2024-08-29 23:02:19 +0000",
       "minecraft:snowy_beach": "2024-08-29 23:03:06 +0000",
+      "minecraft:wooded_badlands": "2024-09-21 07:57:39 +0000",
       "minecraft:windswept_savanna": "2024-08-24 05:21:48 +0000",
+      "minecraft:warm_ocean": "2024-09-21 07:20:18 +0000",
       "minecraft:deep_lukewarm_ocean": "2024-09-12 20:50:16 +0000",
       "minecraft:flower_forest": "2024-09-14 20:12:34 +0000",
       "minecraft:beach": "2024-08-24 03:13:30 +0000",
@@ -1694,16 +1705,26 @@
   },
   "biomeswevegone:biomeswevegone/adventure/oh_the_biomes_weve_gone": {
     "criteria": {
+      "biomeswevegone:atacama_outback": "2024-09-21 07:21:15 +0000",
+      "biomeswevegone:araucaria_savanna": "2024-09-21 07:10:48 +0000",
+      "biomeswevegone:orchard": "2024-09-14 20:10:07 +0000",
+      "biomeswevegone:windswept_desert": "2024-09-21 07:20:22 +0000",
+      "biomeswevegone:crag_gardens": "2024-09-21 07:13:26 +0000",
+      "biomeswevegone:amaranth_grassland": "2024-09-21 07:11:32 +0000",
+      "biomeswevegone:fragment_jungle": "2024-09-21 07:17:57 +0000",
+      "biomeswevegone:dead_sea": "2024-09-21 07:24:00 +0000",
+      "biomeswevegone:allium_shrubland": "2024-09-14 19:47:13 +0000",
+      "biomeswevegone:coconino_meadow": "2024-09-14 20:07:25 +0000",
       "biomeswevegone:black_forest": "2024-09-14 20:22:43 +0000",
       "biomeswevegone:maple_taiga": "2024-09-14 19:52:26 +0000",
-      "biomeswevegone:orchard": "2024-09-14 20:10:07 +0000",
       "biomeswevegone:pumpkin_valley": "2024-09-14 20:00:21 +0000",
       "biomeswevegone:cypress_swamplands": "2024-09-14 19:42:18 +0000",
       "biomeswevegone:prairie": "2024-09-14 19:46:05 +0000",
+      "biomeswevegone:baobab_savanna": "2024-09-21 07:10:44 +0000",
+      "biomeswevegone:enchanted_tangle": "2024-09-21 07:18:02 +0000",
       "biomeswevegone:basalt_barrera": "2024-09-14 19:42:11 +0000",
-      "biomeswevegone:allium_shrubland": "2024-09-14 19:47:13 +0000",
-      "biomeswevegone:coconino_meadow": "2024-09-14 20:07:25 +0000",
-      "biomeswevegone:dacite_ridges": "2024-09-14 20:18:30 +0000"
+      "biomeswevegone:dacite_ridges": "2024-09-14 20:18:30 +0000",
+      "biomeswevegone:rainbow_beach": "2024-09-21 07:19:29 +0000"
     },
     "done": false
   },
@@ -1739,7 +1760,8 @@
   },
   "biomeswevegone:biomeswevegone/husbandry/johnny_appleseed": {
     "criteria": {
-      "apple": "2024-09-15 19:29:37 +0000"
+      "apple": "2024-09-15 19:29:37 +0000",
+      "golden_apple": "2024-09-21 07:00:46 +0000"
     },
     "done": false
   },
@@ -1813,6 +1835,72 @@
   "mekanism:radiation_poisoning": {
     "criteria": {
       "poisoned": "2024-09-18 02:52:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:from_the_tree_tops": {
+    "criteria": {
+      "kapok_vines": "2024-09-21 07:58:32 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/cables_logic": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:53:50 +0000"
+    },
+    "done": true
+  },
+  "integratedtunnels:interfaces/interface_energy": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:54:23 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variables": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:54:30 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variable_output": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:54:35 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/variable_input": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:55:35 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/menril_wrenching": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:55:46 +0000"
+    },
+    "done": true
+  },
+  "integratedscripting:root": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:56:32 +0000"
+    },
+    "done": true
+  },
+  "integratedcrafting:root": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:56:32 +0000"
+    },
+    "done": true
+  },
+  "integratedtunnels:root": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:56:32 +0000"
+    },
+    "done": true
+  },
+  "integrateddynamics:network_foundations/networks_logic": {
+    "criteria": {
+      "criteria_0": "2024-09-21 09:57:20 +0000"
     },
     "done": true
   },
