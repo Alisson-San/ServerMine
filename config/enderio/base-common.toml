@@ -45,7 +45,7 @@
 		#Range: > 1
 		energyUse = 1
 		#Range: > 100
-		maxEnergy = 1000
+		maxEnergy = 10000
 
 	[items.travelling]
 		#Range: 4 ~ 512
