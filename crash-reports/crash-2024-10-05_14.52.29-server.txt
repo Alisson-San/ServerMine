@@ -1,0 +1,453 @@
+---- Minecraft Crash Report ----
+// There are four lights!
+
+Time: 2024-10-05 14:52:29
+Description: Ticking block entity
+
+java.lang.IndexOutOfBoundsException: Index 2 out of bounds for length 2
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?] {}
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?] {}
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?] {}
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[?:?] {re:mixin}
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[?:?] {re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.NonNullList.get(NonNullList.java:66) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.resourceproduction.tile.PotionBrewerTile.brewPotions(PotionBrewerTile.java:232) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.resourceproduction.tile.PotionBrewerTile.lambda$onFinish$11(PotionBrewerTile.java:178) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.tile.IndustrialProcessingTile.lambda$new$4(IndustrialProcessingTile.java:92) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.component.progress.ProgressBarComponent.tickBar(ProgressBarComponent.java:187) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.component.progress.MultiProgressBarHandler.update(MultiProgressBarHandler.java:43) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.tile.ActiveTile.serverTick(ActiveTile.java:224) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.tile.ActiveTile.serverTick(ActiveTile.java:73) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.BasicTileBlock.lambda$getTicker$5(BasicTileBlock.java:83) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:706) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:polymorph.mixins.json:MixinLevelChunk from mod polymorph,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:783) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.redirect$bdb000$observable$redirectTick(Level.java:1818) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:559) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:428) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.chunk_deadlock.ServerLevelMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:eternal_starlight-common.mixins.json:ServerLevelMixin from mod eternal_starlight,pl:mixin:APP:the_bumblezone-common.mixins.json:world.ServerWorldMixin from mod the_bumblezone,pl:mixin:APP:ohthetreesyoullgrow.mixins.json:MixinServerLevel from mod ohthetreesyoullgrow,pl:mixin:APP:corgilib-common.mixins.json:MixinServerLevel from mod corgilib,pl:mixin:APP:polymorph.mixins.json:MixinServerLevel from mod polymorph,pl:mixin:APP:hyperbox.mixins.json:ServerLevelMixin from mod hyperbox,pl:mixin:APP:observable.common.json:ServerLevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:comforts.mixins.json:MixinServerSleepStatus from mod comforts,pl:mixin:APP:ars_elemental.mixins.json:ServerLevelMixin from mod ars_elemental,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1037) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:resourcefulconfig.mixins.json:common.DedicatedServerAccessor from mod resourcefulconfig,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin from mod lithostitched,pl:mixin:APP:mixins/common/nochatreports.mixins.json:server.MixinDedicatedServer from mod nochatreports,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server thread
+Stacktrace:
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:100) ~[?:?] {}
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:106) ~[?:?] {}
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:302) ~[?:?] {}
+	at java.base/java.util.Objects.checkIndex(Objects.java:385) ~[?:?] {re:mixin}
+	at java.base/java.util.ArrayList.get(ArrayList.java:427) ~[?:?] {re:mixin}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.core.NonNullList.get(NonNullList.java:66) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:computing_frames,re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.resourceproduction.tile.PotionBrewerTile.brewPotions(PotionBrewerTile.java:232) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.resourceproduction.tile.PotionBrewerTile.lambda$onFinish$11(PotionBrewerTile.java:178) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/industrialforegoing@1.21-3.6.13/com.buuz135.industrial.block.tile.IndustrialProcessingTile.lambda$new$4(IndustrialProcessingTile.java:92) ~[industrialforegoing-1.21-3.6.13.jar%23515!/:?] {re:classloading}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.component.progress.ProgressBarComponent.tickBar(ProgressBarComponent.java:187) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.component.progress.MultiProgressBarHandler.update(MultiProgressBarHandler.java:43) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.tile.ActiveTile.serverTick(ActiveTile.java:224) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.tile.ActiveTile.serverTick(ActiveTile.java:73) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading,pl:runtimedistcleaner:A}
+	at TRANSFORMER/titanium@4.0.21/com.hrznstudio.titanium.block.BasicTileBlock.lambda$getTicker$5(BasicTileBlock.java:83) ~[titanium-1.21-4.0.21.jar%23640!/:4.0.21] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:706) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:polymorph.mixins.json:MixinLevelChunk from mod polymorph,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:783) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.redirect$bdb000$observable$redirectTick(Level.java:1818) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:559) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+-- Block entity being ticked --
+Details:
+	Name: industrialforegoing:potion_brewer // com.buuz135.industrial.block.resourceproduction.tile.PotionBrewerTile
+	Block: Block{industrialforegoing:potion_brewer}[subfacing=north]
+	Block location: World: (-843,55,-872), Section: (at 5,7,8 in -53,3,-55; chunk contains blocks -848,-64,-880 to -833,319,-865), Region: (-2,-2; contains chunks -64,-64 to -33,-33, blocks -1024,-64,-1024 to -513,319,-513)
+	Block: Block{industrialforegoing:potion_brewer}[subfacing=north]
+	Block location: World: (-843,55,-872), Section: (at 5,7,8 in -53,3,-55; chunk contains blocks -848,-64,-880 to -833,319,-865), Region: (-2,-2; contains chunks -64,-64 to -33,-33, blocks -1024,-64,-1024 to -513,319,-513)
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$BoundTickingBlockEntity.tick(LevelChunk.java:706) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:polymorph.mixins.json:MixinLevelChunk from mod polymorph,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.chunk.LevelChunk$RebindableTickingBlockEntityWrapper.tick(LevelChunk.java:783) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:classloading}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.redirect$bdb000$observable$redirectTick(Level.java:1818) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.world.level.Level.tickBlockEntities(Level.java:559) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:computing_frames,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:mffs.mixins.json:LevelMixin from mod mffs,pl:mixin:APP:observable.common.json:LevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:LevelMixin from mod kubejs,pl:mixin:APP:xycraft_core.mixins.json:LevelRainShieldMixin from mod xycraft_core,pl:mixin:APP:the_bumblezone-common.mixins.json:world.LevelMixin from mod the_bumblezone,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.tick(ServerLevel.java:428) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.chunk_deadlock.ServerLevelMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:eternal_starlight-common.mixins.json:ServerLevelMixin from mod eternal_starlight,pl:mixin:APP:the_bumblezone-common.mixins.json:world.ServerWorldMixin from mod the_bumblezone,pl:mixin:APP:ohthetreesyoullgrow.mixins.json:MixinServerLevel from mod ohthetreesyoullgrow,pl:mixin:APP:corgilib-common.mixins.json:MixinServerLevel from mod corgilib,pl:mixin:APP:polymorph.mixins.json:MixinServerLevel from mod polymorph,pl:mixin:APP:hyperbox.mixins.json:ServerLevelMixin from mod hyperbox,pl:mixin:APP:observable.common.json:ServerLevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:comforts.mixins.json:MixinServerSleepStatus from mod comforts,pl:mixin:APP:ars_elemental.mixins.json:ServerLevelMixin from mod ars_elemental,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1037) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:resourcefulconfig.mixins.json:common.DedicatedServerAccessor from mod resourcefulconfig,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin from mod lithostitched,pl:mixin:APP:mixins/common/nochatreports.mixins.json:server.MixinDedicatedServer from mod nochatreports,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+-- Affected level --
+Details:
+	All players: 1 total; [ServerPlayer['Nego_Plays'/670503, l='ServerLevel[world]', x=-842.76, y=55.00, z=-875.55]]
+	Chunk stats: 3050
+	Level dimension: minecraft:overworld
+	Level spawn location: World: (32,89,-32), Section: (at 0,9,0 in 2,5,-2; chunk contains blocks 32,-64,-32 to 47,319,-17), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,-64,-512 to 511,319,-1)
+	Level time: 74133106 game time, 75882169 day time
+	Level name: world
+	Level game mode: Game mode: survival (ID 0). Hardcore: false. Commands: false
+	Level weather: Rain time: 11501 (now: false), thunder time: 38992 (now: false)
+	Known server brands: neoforge
+	Removed feature flags: 
+	Level was modded: true
+	Level storage version: 0x04ABD - Anvil
+	Loaded entity count: 323
+Stacktrace:
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.level.ServerLevel.fillReportDetails(ServerLevel.java:1718) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:APP:modernfix-common.mixins.json:bugfix.chunk_deadlock.ServerLevelMixin from mod modernfix,pl:mixin:APP:modernfix-common.mixins.json:perf.cache_strongholds.ServerLevelMixin from mod modernfix,pl:mixin:APP:eternal_starlight-common.mixins.json:ServerLevelMixin from mod eternal_starlight,pl:mixin:APP:the_bumblezone-common.mixins.json:world.ServerWorldMixin from mod the_bumblezone,pl:mixin:APP:ohthetreesyoullgrow.mixins.json:MixinServerLevel from mod ohthetreesyoullgrow,pl:mixin:APP:corgilib-common.mixins.json:MixinServerLevel from mod corgilib,pl:mixin:APP:polymorph.mixins.json:MixinServerLevel from mod polymorph,pl:mixin:APP:hyperbox.mixins.json:ServerLevelMixin from mod hyperbox,pl:mixin:APP:observable.common.json:ServerLevelMixin from mod observable,pl:mixin:APP:kubejs.mixins.json:ServerLevelMixin from mod kubejs,pl:mixin:APP:comforts.mixins.json:MixinServerSleepStatus from mod comforts,pl:mixin:APP:ars_elemental.mixins.json:ServerLevelMixin from mod ars_elemental,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1040) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.dedicated.DedicatedServer.tickChildren(DedicatedServer.java:317) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,re:classloading,pl:mixin:APP:resourcefulconfig.mixins.json:common.DedicatedServerAccessor from mod resourcefulconfig,pl:mixin:APP:lithostitched.mixins.json:server.DedicatedServerMixin from mod lithostitched,pl:mixin:APP:mixins/common/nochatreports.mixins.json:server.MixinDedicatedServer from mod nochatreports,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:917) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:707) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at TRANSFORMER/minecraft@1.21.1/net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:267) ~[server-1.21.1-20240808.144430-srg.jar%23390!/:?] {re:mixin,pl:accesstransformer:B,re:classloading,pl:accesstransformer:B,pl:mixin:A}
+	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?] {re:mixin}
+
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.1
+	Minecraft Version ID: 1.21.1
+	Operating System: Linux (amd64) version 5.15.0-1069-gcp
+	Java Version: 21.0.4, Ubuntu
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Ubuntu
+	Memory: 981373784 bytes (935 MiB) / 4294967296 bytes (4096 MiB) up to 8589934592 bytes (8192 MiB)
+	CPUs: 2
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Xeon(R) CPU @ 2.20GHz
+	Identifier: Intel64 Family 6 Model 79 Stepping 0
+	Microarchitecture: Broadwell (Server)
+	Frequency (GHz): 2.20
+	Number of physical packages: 1
+	Number of physical CPUs: 1
+	Number of logical CPUs: 2
+	Graphics card #0 name: Virtio SCSI
+	Graphics card #0 vendor: Red Hat, Inc. (0x1af4)
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: 0x1004
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 3967.34
+	Virtual memory used (MiB): 6886.19
+	Swap memory total (MiB): 0.00
+	Swap memory used (MiB): 0.00
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 14007.15, total: 34548.25
+	Space in storage for workdir (MiB): available: 14007.15, total: 34548.25
+	JVM Flags: 20 total; -Xms4G -Xmx8G -XX:+UseG1GC -XX:+ParallelRefProcEnabled -XX:MaxGCPauseMillis=200 -XX:+UnlockExperimentalVMOptions -XX:+DisableExplicitGC -XX:+AlwaysPreTouch -XX:G1NewSizePercent=30 -XX:G1MaxNewSizePercent=40 -XX:G1HeapRegionSize=8M -XX:G1ReservePercent=20 -XX:G1HeapWastePercent=5 -XX:G1MixedGCCountTarget=4 -XX:InitiatingHeapOccupancyPercent=15 -XX:G1MixedGCLiveThresholdPercent=90 -XX:G1RSetUpdatingPauseTimePercent=5 -XX:SurvivorRatio=32 -XX:+PerfDisableSharedMem -XX:MaxTenuringThreshold=1
+	Server Running: true
+	Player Count: 1 / 20; [ServerPlayer['Nego_Plays'/670503, l='ServerLevel[world]', x=-842.76, y=55.00, z=-875.55]]
+	Active Data Packs: mod/the_bumblezone:datapacks/productive_bees_compat, vanilla, mod/explorify, mod_data, mod/supermartijn642configlib (incompatible), mod/quarryplus (incompatible), mod/underground_villages, mod/simplemagnets, mod/playeranimator, mod/integratedterminals,integratedterminalscompat (incompatible), mod/enderio_base, mod/mffs, mod/mcwwindows (incompatible), mod/underground_bunkers (incompatible), mod/ironjetpacks, mod/endercore, mod/ctm, mod/neoforge, mod/modernfix (incompatible), mod/evilcraft,evilcraftcompat (incompatible), mod/everythingcopper (incompatible), mod/yungsapi (incompatible), mod/powah (incompatible), mod/gateways, mod/rechiseled_chipped, mod/rangedpumps (incompatible), mod/ae2importexportcard, mod/balm (incompatible), mod/moderndynamics, mod/cloth_config (incompatible), mod/ctov, mod/sawmill (incompatible), mod/eternal_starlight (incompatible), mod/athena, mod/stylecolonies, mod/alltheores, mod/glodium (incompatible), mod/industrialforegoing (incompatible), mod/torchmaster (incompatible), mod/sussysniffers, mod/handcrafted, mod/repurposed_structures, mod/ironfurnaces, mod/mcwtrpdoors (incompatible), mod/heyberryshutup (incompatible), mod/supermartijn642corelib, mod/resourcefulconfig, mod/integratedscripting (incompatible), mod/spark (incompatible), mod/curios (incompatible), mod/searchables (incompatible), mod/measurements, mod/framedblocks, mod/omegaconfig, mod/noisium (incompatible), mod/mcwroofs (incompatible), mod/mcwfurnitures (incompatible), mod/apothic_enchanting, mod/the_bumblezone, mod/infiniverse, mod/enderio_machines, mod/journeymap_api (incompatible), mod/antiblocksrechiseled (incompatible), mod/sfm (incompatible), mod/mcwlights (incompatible), mod/crafting_on_a_stick (incompatible), mod/smartbrainlib (incompatible), mod/ae2jeiintegration, mod/rechiseled, mod/jei (incompatible), mod/lithostitched (incompatible), mod/mekanism, mod/laserio (incompatible), mod/gmut (incompatible), mod/caelus (incompatible), mod/allthecompressed (incompatible), mod/invtweaks (incompatible), mod/mcwholidays (incompatible), mod/naturescompass (incompatible), mod/epherolib (incompatible), mod/jumpboat (incompatible), mod/farmingforblockheads (incompatible), mod/pneumaticcraft, mod/fusion, mod/edivadlib, mod/mcwpaths (incompatible), mod/integratedcrafting (incompatible), mod/zerocore (incompatible), mod/terrablender (incompatible), mod/mousetweaks (incompatible), mod/nochatreports, mod/allthemodium, mod/ohthetreesyoullgrow (incompatible), mod/cleanswing, mod/spectrelib (incompatible), mod/corgilib (incompatible), mod/sushigocrafting (incompatible), mod/domum_ornamentum, mod/kotlinforforge (incompatible), mod/pipez (incompatible), mod/integrateddynamics,integrateddynamicscompat (incompatible), mod/megacells (incompatible), mod/itemcollectors, mod/gravestone (incompatible), mod/croptopia (incompatible), mod/polymorph (incompatible), mod/securitycraft, mod/almostunified (incompatible), mod/entityculling (incompatible), mod/railcraft, mod/enderio_conduits_modded, mod/structory_towers, mod/appleskin (incompatible), mod/showcaseitem, mod/lootr, mod/occultism, mod/hyperbox, mod/allthetweaks (incompatible), mod/aquaculture (incompatible), mod/cosmeticarmorreworked (incompatible), mod/morered, mod/cristellib, mod/cyclopscore (incompatible), mod/kuma_api (incompatible), mod/netherportalfix (incompatible), mod/geckolib, mod/ars_nouveau (incompatible), mod/towntalk, mod/pocketstorage (incompatible), mod/sophisticatedcore (incompatible), mod/glassential (incompatible), mod/cookingforblockheads (incompatible), mod/controlling (incompatible), mod/placebo, mod/wstweaks, mod/apothic_attributes, mod/storagedelight (incompatible), mod/sophisticatedbackpacks (incompatible), mod/relics (incompatible), mod/mcwdoors (incompatible), mod/moreredxcctcompat, mod/generatorgalore (incompatible), mod/mekanismgenerators, mod/grandpower, mod/utilitarian (incompatible), mod/fzzy_config, mod/dummmmmmy (incompatible), mod/chipped, mod/mcwbridges (incompatible), mod/farmersdelight (incompatible), mod/hostilenetworks, mod/entangled, mod/commoncapabilities (incompatible), mod/crashutilities (incompatible), mod/jearchaeology (incompatible), mod/getittogetherdrops, mod/mcwfences (incompatible), mod/fuelgoeshere (incompatible), mod/wirelesschargers, mod/simplylight (incompatible), mod/patchouli (incompatible), mod/ars_additions (incompatible), mod/allthearcanistgear, mod/blockui, mod/structurize, mod/multipiston, mod/tiab (incompatible), mod/integratedtunnels,integratedtunnelscompat (incompatible), mod/mysticalcustomization, mod/elevatorid, mod/ftbultimine (incompatible), mod/resourcefullib, mod/mekanismtools, mod/deeperdarker, mod/architectury (incompatible), mod/mostructures, mod/ftblibrary (incompatible), mod/jamlib (incompatible), mod/ftbfiltersystem (incompatible), mod/findme (incompatible), mod/ftbteams (incompatible), mod/ftbquests (incompatible), mod/ftbranks (incompatible), mod/ftbessentials (incompatible), mod/accelerateddecay (incompatible), mod/hardenedarmadillos (incompatible), mod/computercraft (incompatible), mod/aiimprovements, mod/bigreactors (incompatible), mod/ars_ocultas (incompatible), mod/trashcans, mod/undergarden, mod/monolib (incompatible), mod/disenchanting_table (incompatible), mod/justdirethings, mod/polylib (incompatible), mod/shrink (incompatible), mod/t_and_t, mod/observable (incompatible), mod/letmedespawn, mod/yeetusexperimentus (incompatible), mod/villagesandpillages (incompatible), mod/rhino, mod/kubejs (incompatible), mod/rootsclassic (incompatible), mod/cucumber, mod/trashslot (incompatible), mod/jmi (incompatible), mod/blueflame (incompatible), mod/sophisticatedstorage (incompatible), mod/redstonepen (incompatible), mod/octolib, mod/allthewizardgear (incompatible), mod/additionallanterns, mod/productivelib (incompatible), mod/biomeswevegone, mod/commonnetworking (incompatible), mod/reap (incompatible), mod/waystones (incompatible), mod/illagerwarship, mod/structory, mod/clumps (incompatible), mod/journeymap (incompatible), mod/comforts (incompatible), mod/artifacts, mod/dimstorage, mod/dungeoncrawl, mod/charginggadgets (incompatible), mod/explorerscompass (incompatible), mod/mininggadgets (incompatible), mod/factory_blocks (incompatible), mod/trophymanager (incompatible), mod/ftbchunks (incompatible), mod/ftbxmodcompat (incompatible), mod/xycraft_core (incompatible), mod/xycraft_world (incompatible), mod/xycraft_machines (incompatible), mod/xycraft_override, mod/repeatable_trial_vaults (incompatible), mod/mysticalagriculture, mod/mysticalagradditions, mod/craftingtweaks (incompatible), mod/moonlight (incompatible), mod/endermanoverhaul, mod/apothic_spawners, mod/enderio_conduits, mod/toolbelt (incompatible), mod/titanium, mod/regions_unexplored (incompatible), mod/jade (incompatible), mod/ae2 (incompatible), mod/aeinfinitybooster (incompatible), mod/ae2ct, mod/ae2netanalyser (incompatible), mod/appflux (incompatible), mod/merequester, mod/ae2wtlib (incompatible), mod/extendedae (incompatible), mod/ae2wtlib_api, mod/modern_industrialization, mod/tesseract_api, mod/extended_industrialization, mod/advanced_ae (incompatible), mod/forbidden_arcanus (incompatible), mod/enderio_armory, mod/theurgy, mod/enderio, mod/easy_villagers (incompatible), mod/polyeng, mod/fastbench, mod/nullscape, mod/ars_elemental (incompatible), mod/irons_spellbooks (incompatible), mod/buildinggadgets2 (incompatible), mod/modonomicon (incompatible), mod/minecolonies, mod/pylons, mod/creeperoverhaul, mod/ferritecore (incompatible), mod/chisel (incompatible), mod/functionalstorage (incompatible), mod/modularrouters, mod/appmek (incompatible), mod/expandability, mod/valhelsia_core (incompatible), mod/overloadedarmorbar (incompatible), mod/xtonesreworked (incompatible), mod/flickerfix, mod/productivetrees (incompatible), mod/productivebees (incompatible), resources/t_and_t_waystones_patch, modern_industrialization/generated
+	Available Data Packs: bundle, trade_rebalance, vanilla, mod/accelerateddecay (incompatible), mod/additionallanterns, mod/advanced_ae (incompatible), mod/ae2 (incompatible), mod/ae2ct, mod/ae2importexportcard, mod/ae2jeiintegration, mod/ae2netanalyser (incompatible), mod/ae2wtlib (incompatible), mod/ae2wtlib_api, mod/aeinfinitybooster (incompatible), mod/aiimprovements, mod/allthearcanistgear, mod/allthecompressed (incompatible), mod/allthemodium, mod/alltheores, mod/allthetweaks (incompatible), mod/allthewizardgear (incompatible), mod/almostunified (incompatible), mod/antiblocksrechiseled (incompatible), mod/apothic_attributes, mod/apothic_enchanting, mod/apothic_spawners, mod/appflux (incompatible), mod/appleskin (incompatible), mod/appmek (incompatible), mod/aquaculture (incompatible), mod/architectury (incompatible), mod/ars_additions (incompatible), mod/ars_elemental (incompatible), mod/ars_nouveau (incompatible), mod/ars_ocultas (incompatible), mod/artifacts, mod/athena, mod/balm (incompatible), mod/bigreactors (incompatible), mod/biomeswevegone, mod/blockui, mod/blueflame (incompatible), mod/buildinggadgets2 (incompatible), mod/caelus (incompatible), mod/charginggadgets (incompatible), mod/chipped, mod/chisel (incompatible), mod/cleanswing, mod/cloth_config (incompatible), mod/clumps (incompatible), mod/comforts (incompatible), mod/commoncapabilities (incompatible), mod/commonnetworking (incompatible), mod/computercraft (incompatible), mod/controlling (incompatible), mod/cookingforblockheads (incompatible), mod/corgilib (incompatible), mod/cosmeticarmorreworked (incompatible), mod/crafting_on_a_stick (incompatible), mod/craftingtweaks (incompatible), mod/crashutilities (incompatible), mod/creeperoverhaul, mod/cristellib, mod/croptopia (incompatible), mod/ctm, mod/ctov, mod/cucumber, mod/curios (incompatible), mod/cyclopscore (incompatible), mod/deeperdarker, mod/dimstorage, mod/disenchanting_table (incompatible), mod/domum_ornamentum, mod/dummmmmmy (incompatible), mod/dungeoncrawl, mod/easy_villagers (incompatible), mod/edivadlib, mod/elevatorid, mod/endercore, mod/enderio, mod/enderio_armory, mod/enderio_base, mod/enderio_conduits, mod/enderio_conduits_modded, mod/enderio_machines, mod/endermanoverhaul, mod/entangled, mod/entityculling (incompatible), mod/epherolib (incompatible), mod/eternal_starlight (incompatible), mod/everythingcopper (incompatible), mod/evilcraft,evilcraftcompat (incompatible), mod/expandability, mod/explorerscompass (incompatible), mod/explorify, mod/extended_industrialization, mod/extendedae (incompatible), mod/factory_blocks (incompatible), mod/farmersdelight (incompatible), mod/farmingforblockheads (incompatible), mod/fastbench, mod/ferritecore (incompatible), mod/findme (incompatible), mod/flickerfix, mod/forbidden_arcanus (incompatible), mod/framedblocks, mod/ftbchunks (incompatible), mod/ftbessentials (incompatible), mod/ftbfiltersystem (incompatible), mod/ftblibrary (incompatible), mod/ftbquests (incompatible), mod/ftbranks (incompatible), mod/ftbteams (incompatible), mod/ftbultimine (incompatible), mod/ftbxmodcompat (incompatible), mod/fuelgoeshere (incompatible), mod/functionalstorage (incompatible), mod/fusion, mod/fzzy_config, mod/gateways, mod/geckolib, mod/generatorgalore (incompatible), mod/getittogetherdrops, mod/glassential (incompatible), mod/glodium (incompatible), mod/gmut (incompatible), mod/grandpower, mod/gravestone (incompatible), mod/handcrafted, mod/hardenedarmadillos (incompatible), mod/heyberryshutup (incompatible), mod/hostilenetworks, mod/hyperbox, mod/illagerwarship, mod/industrialforegoing (incompatible), mod/infiniverse, mod/integratedcrafting (incompatible), mod/integrateddynamics,integrateddynamicscompat (incompatible), mod/integratedscripting (incompatible), mod/integratedterminals,integratedterminalscompat (incompatible), mod/integratedtunnels,integratedtunnelscompat (incompatible), mod/invtweaks (incompatible), mod/ironfurnaces, mod/ironjetpacks, mod/irons_spellbooks (incompatible), mod/itemcollectors, mod/jade (incompatible), mod/jamlib (incompatible), mod/jearchaeology (incompatible), mod/jei (incompatible), mod/jmi (incompatible), mod/journeymap (incompatible), mod/journeymap_api (incompatible), mod/jumpboat (incompatible), mod/justdirethings, mod/kotlinforforge (incompatible), mod/kubejs (incompatible), mod/kuma_api (incompatible), mod/laserio (incompatible), mod/letmedespawn, mod/lithostitched (incompatible), mod/lootr, mod/mcwbridges (incompatible), mod/mcwdoors (incompatible), mod/mcwfences (incompatible), mod/mcwfurnitures (incompatible), mod/mcwholidays (incompatible), mod/mcwlights (incompatible), mod/mcwpaths (incompatible), mod/mcwroofs (incompatible), mod/mcwtrpdoors (incompatible), mod/mcwwindows (incompatible), mod/measurements, mod/megacells (incompatible), mod/mekanism, mod/mekanismgenerators, mod/mekanismtools, mod/merequester, mod/mffs, mod/minecolonies, mod/mininggadgets (incompatible), mod/modern_industrialization, mod/moderndynamics, mod/modernfix (incompatible), mod/modonomicon (incompatible), mod/modularrouters, mod/monolib (incompatible), mod/moonlight (incompatible), mod/morered, mod/moreredxcctcompat, mod/mostructures, mod/mousetweaks (incompatible), mod/multipiston, mod/mysticalagradditions, mod/mysticalagriculture, mod/mysticalcustomization, mod/naturescompass (incompatible), mod/neoforge, mod/netherportalfix (incompatible), mod/nochatreports, mod/noisium (incompatible), mod/nullscape, mod/observable (incompatible), mod/occultism, mod/octolib, mod/ohthetreesyoullgrow (incompatible), mod/omegaconfig, mod/overloadedarmorbar (incompatible), mod/patchouli (incompatible), mod/pipez (incompatible), mod/placebo, mod/playeranimator, mod/pneumaticcraft, mod/pocketstorage (incompatible), mod/polyeng, mod/polylib (incompatible), mod/polymorph (incompatible), mod/powah (incompatible), mod/productivebees (incompatible), mod/productivelib (incompatible), mod/productivetrees (incompatible), mod/pylons, mod/quarryplus (incompatible), mod/railcraft, mod/rangedpumps (incompatible), mod/reap (incompatible), mod/rechiseled, mod/rechiseled_chipped, mod/redstonepen (incompatible), mod/regions_unexplored (incompatible), mod/relics (incompatible), mod/repeatable_trial_vaults (incompatible), mod/repurposed_structures, mod/resourcefulconfig, mod/resourcefullib, mod/rhino, mod/rootsclassic (incompatible), mod/sawmill (incompatible), mod/searchables (incompatible), mod/securitycraft, mod/sfm (incompatible), mod/showcaseitem, mod/shrink (incompatible), mod/simplemagnets, mod/simplylight (incompatible), mod/smartbrainlib (incompatible), mod/sophisticatedbackpacks (incompatible), mod/sophisticatedcore (incompatible), mod/sophisticatedstorage (incompatible), mod/spark (incompatible), mod/spectrelib (incompatible), mod/storagedelight (incompatible), mod/structory, mod/structory_towers, mod/structurize, mod/stylecolonies, mod/supermartijn642configlib (incompatible), mod/supermartijn642corelib, mod/sushigocrafting (incompatible), mod/sussysniffers, mod/t_and_t, mod/terrablender (incompatible), mod/tesseract_api, mod/the_bumblezone, mod/theurgy, mod/tiab (incompatible), mod/titanium, mod/toolbelt (incompatible), mod/torchmaster (incompatible), mod/towntalk, mod/trashcans, mod/trashslot (incompatible), mod/trophymanager (incompatible), mod/undergarden, mod/underground_bunkers (incompatible), mod/underground_villages, mod/utilitarian (incompatible), mod/valhelsia_core (incompatible), mod/villagesandpillages (incompatible), mod/waystones (incompatible), mod/wirelesschargers, mod/wstweaks, mod/xtonesreworked (incompatible), mod/xycraft_core (incompatible), mod/xycraft_machines (incompatible), mod/xycraft_override, mod/xycraft_world (incompatible), mod/yeetusexperimentus (incompatible), mod/yungsapi (incompatible), mod/zerocore (incompatible), mod_data, mod/the_bumblezone:datapacks/productive_bees_compat, resources/t_and_t_waystones_patch, modern_industrialization/generated
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -286897720099363855
+	Is Modded: Definitely; Server brand changed to 'neoforge'
+	Type: Dedicated Server (map_server.txt)
+	ModLauncher: 11.0.4+main.d2e20e43
+	ModLauncher launch target: forgeserver
+	ModLauncher services: 
+		sponge-mixin-0.15.2+mixin.0.8.7.jar mixin PLUGINSERVICE 
+		loader-4.0.24.jar slf4jfixer PLUGINSERVICE 
+		loader-4.0.24.jar runtime_enum_extender PLUGINSERVICE 
+		at-modlauncher-10.0.1.jar accesstransformer PLUGINSERVICE 
+		loader-4.0.24.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-11.0.4.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-11.0.4.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		kotlinforforge@5.5.0
+		kotori_scala@3.5.1-build-2
+		javafml@4.0
+		lowcodefml@4.0
+		minecraft@4.0
+	Mod List: 
+		supermartijn642configlib-1.1.8-neoforge-mc1.21.jar|SuperMartijn642's Config Libra|supermartijn642configlib      |1.1.8               |Manifest: NOSIGNATURE
+		AdditionalEnchantedMiner-1.21.1-neoforge-21.1.103.|QuarryPlus                    |quarryplus                    |21.1.103            |Manifest: ef:50:af:b3:03:e0:3e:70:a7:ef:78:77:a5:4d:d4:b5:07:ec:df:9d:d6:f3:12:13:c9:3c:cd:9a:0a:3e:6b:43
+		UndergroundVillages-neoforge-1.21-4.0.0.jar       |Underground Villages Mod      |underground_villages          |4.0.0               |Manifest: NOSIGNATURE
+		simplemagnets-1.1.11b-neoforge-mc1.21.jar         |Simple Magnets                |simplemagnets                 |1.1.11+b            |Manifest: NOSIGNATURE
+		player-animation-lib-forge-2.0.0-alpha1+1.21.jar  |Player Animator               |playeranimator                |2.0.0-alpha1+1.21   |Manifest: NOSIGNATURE
+		IntegratedTerminals-1.21.1-neoforge-1.5.2.jar     |IntegratedTerminals           |integratedterminals           |1.5.2               |Manifest: NOSIGNATURE
+		com.enderio.enderio-base-7.0.4-alpha.jar          |Ender IO Base                 |enderio_base                  |7.0.4-alpha         |Manifest: NOSIGNATURE
+		mffs-5.4.6.jar                                    |Modular Force Field System    |mffs                          |5.4.6               |Manifest: NOSIGNATURE
+		mcw-windows-2.3.0-mc1.21.1neoforge.jar            |Macaw's Windows               |mcwwindows                    |2.3.2               |Manifest: NOSIGNATURE
+		UndergroundBunkers-1.0.4-1.21.x-neoforge.jar      |Underground Bunkers           |underground_bunkers           |1.0.4               |Manifest: NOSIGNATURE
+		IronJetpacks-1.21.1-8.0.4.jar                     |Iron Jetpacks                 |ironjetpacks                  |8.0.4               |Manifest: NOSIGNATURE
+		com.enderio.endercore-7.0.4-alpha.jar             |Ender Core                    |endercore                     |7.0.4-alpha         |Manifest: NOSIGNATURE
+		CTM-1.21-1.2.1+3.jar                              |ConnectedTexturesMod          |ctm                           |1.21-1.2.1+3        |Manifest: NOSIGNATURE
+		neoforge-21.1.61-universal.jar                    |NeoForge                      |neoforge                      |21.1.61             |Manifest: NOSIGNATURE
+		modernfix-neoforge-5.19.3+mc1.21.1.jar            |ModernFix                     |modernfix                     |5.19.3+mc1.21.1     |Manifest: NOSIGNATURE
+		EvilCraft-1.21.1-neoforge-1.2.57.jar              |EvilCraft                     |evilcraft                     |1.2.57              |Manifest: NOSIGNATURE
+		everythingcopper-1.21.1-2.3.6.jar                 |Everything is Copper          |everythingcopper              |1.21.1-2.3.6        |Manifest: NOSIGNATURE
+		YungsApi-1.21-NeoForge-5.0.0.jar                  |YUNG's API                    |yungsapi                      |1.21-NeoForge-5.0.0 |Manifest: NOSIGNATURE
+		Powah-6.1.2.jar                                   |Powah                         |powah                         |6.1.2               |Manifest: NOSIGNATURE
+		GatewaysToEternity-1.21.1-5.0.1.jar               |Gateways To Eternity          |gateways                      |5.0.1               |Manifest: NOSIGNATURE
+		rechiseled_chipped-1.2.jar                        |Rechiseled: Chipped           |rechiseled_chipped            |1.2                 |Manifest: NOSIGNATURE
+		rangedpumps-1.3.0.jar                             |Ranged Pumps                  |rangedpumps                   |1.3.0               |Manifest: NOSIGNATURE
+		ae2importexportcard-1.21-1.4.0.jar                |AE2 Import Export Card        |ae2importexportcard           |1.21-1.4.0          |Manifest: NOSIGNATURE
+		balm-neoforge-1.21.1-21.0.19.jar                  |Balm                          |balm                          |21.0.19             |Manifest: NOSIGNATURE
+		Modern-Dynamics-0.9.2.jar                         |Modern Dynamics               |moderndynamics                |0.9.2               |Manifest: NOSIGNATURE
+		cloth-config-15.0.140-neoforge.jar                |Cloth Config v15 API          |cloth_config                  |15.0.140            |Manifest: NOSIGNATURE
+		[Neoforge]CTOV-3.5.3.jar                          |ChoiceTheorem's Overhauled Vil|ctov                          |3.5.3               |Manifest: NOSIGNATURE
+		sawmill-1.21-1.5.6-neoforge.jar                   |Universal Sawmill             |sawmill                       |1.21-1.5.6          |Manifest: NOSIGNATURE
+		eternalstarlight-0.1.14+1.21.1+neoforge.jar       |Eternal Starlight             |eternal_starlight             |0.1.14+1.21.1+neofor|Manifest: NOSIGNATURE
+		athena-neoforge-1.21-4.0.0.jar                    |Athena                        |athena                        |4.0.0               |Manifest: NOSIGNATURE
+		stylecolonies-1.10-1.21.jar                       |Stylecolonies                 |stylecolonies                 |1.10                |Manifest: NOSIGNATURE
+		alltheores-2.3.6_neoforge_1.21.1.jar              |AllTheOres                    |alltheores                    |2.3.6               |Manifest: NOSIGNATURE
+		Glodium-1.21-2.0-neoforge.jar                     |Glodium                       |glodium                       |1.21-2.0-neoforge   |Manifest: NOSIGNATURE
+		industrialforegoing-1.21-3.6.13.jar               |Industrial Foregoing          |industrialforegoing           |1.21-3.6.13         |Manifest: NOSIGNATURE
+		torchmaster-neoforge-1.21.1-21.1.2-beta.jar       |Torchmaster                   |torchmaster                   |21.1.2-beta         |Manifest: NOSIGNATURE
+		sussysniffers-1.21.1-0.1.1.jar                    |Sussy Sniffers                |sussysniffers                 |1.21.1-0.1.1        |Manifest: NOSIGNATURE
+		handcrafted-neoforge-1.21.1-4.0.2.jar             |Handcrafted                   |handcrafted                   |4.0.2               |Manifest: NOSIGNATURE
+		repurposed_structures-7.5.10+1.21.1-neoforge.jar  |Repurposed Structures         |repurposed_structures         |7.5.10+1.21.1-neofor|Manifest: NOSIGNATURE
+		Explorify v1.6.2 f10-48.jar                       |Explorify                     |explorify                     |1.6.2               |Manifest: NOSIGNATURE
+		ironfurnaces-neoforge-1.21-4.2.5.jar              |Iron Furnaces                 |ironfurnaces                  |4.2.5               |Manifest: NOSIGNATURE
+		mcw-trapdoors-1.1.3-mc1.21.1neoforge.jar          |Macaw's Trapdoors             |mcwtrpdoors                   |1.1.3               |Manifest: NOSIGNATURE
+		heyberryshutup-1.21.0-2.0.4.jar                   |Hey Berry! SHUT UP            |heyberryshutup                |1.21.0-2.0.4        |Manifest: NOSIGNATURE
+		supermartijn642corelib-1.1.17i-neoforge-mc1.21.jar|SuperMartijn642's Core Lib    |supermartijn642corelib        |1.1.17+i            |Manifest: NOSIGNATURE
+		resourcefulconfig-neoforge-1.21-3.0.4.jar         |Resourcefulconfig             |resourcefulconfig             |3.0.4               |Manifest: NOSIGNATURE
+		IntegratedScripting-1.21-neoforge-1.0.5.jar       |IntegratedScripting           |integratedscripting           |1.0.5               |Manifest: NOSIGNATURE
+		spark-1.10.109-neoforge.jar                       |spark                         |spark                         |1.10.109            |Manifest: NOSIGNATURE
+		curios-neoforge-9.1.4+1.21.0.jar                  |Adorned API                   |curios                        |9.1.4+1.21.0        |Manifest: NOSIGNATURE
+		Searchables-neoforge-1.21.1-1.0.1.jar             |Searchables                   |searchables                   |1.0.1               |Manifest: NOSIGNATURE
+		Measurements-neoforge-1.21-3.0.0.jar              |Measurements                  |measurements                  |3.0.0               |Manifest: NOSIGNATURE
+		FramedBlocks-10.1.4.jar                           |FramedBlocks                  |framedblocks                  |10.1.4              |Manifest: NOSIGNATURE
+		omegaconfig-neoforge-1.5.1.jar                    |Omega Config Architectury     |omegaconfig                   |1.5.1               |Manifest: NOSIGNATURE
+		noisium-neoforge-2.3.0+mc1.21-1.21.1.jar          |Noisium                       |noisium                       |2.3.0+mc1.21-1.21.1 |Manifest: NOSIGNATURE
+		mcw-roofs-2.3.1-mc1.21.1neoforge.jar              |Macaw's Roofs                 |mcwroofs                      |2.3.1               |Manifest: NOSIGNATURE
+		mcw-furniture-3.3.0-mc1.21.1neoforge.jar          |Macaw's Furniture             |mcwfurnitures                 |3.3.0               |Manifest: NOSIGNATURE
+		ApothicEnchanting-1.21.1-1.2.2.jar                |Apothic Enchanting            |apothic_enchanting            |1.2.2               |Manifest: NOSIGNATURE
+		the_bumblezone-7.7.1+1.21.1-neoforge.jar          |The Bumblezone                |the_bumblezone                |7.7.1+1.21.1-neoforg|Manifest: NOSIGNATURE
+		infiniverse-1.21-2.0.1.0.jar                      |Infiniverse                   |infiniverse                   |2.0.1.0             |Manifest: NOSIGNATURE
+		com.enderio.enderio-machines-7.0.4-alpha.jar      |Ender IO Machines             |enderio_machines              |7.0.4-alpha         |Manifest: NOSIGNATURE
+		journeymap-api-neoforge-2.0.0-1.21-SNAPSHOT.jar   |JourneyMap API                |journeymap_api                |2.0.0               |Manifest: NOSIGNATURE
+		antiblocksrechiseled-neo-0.10.3.jar               |AntiBlocksReChiseled          |antiblocksrechiseled          |0.10.3              |Manifest: NOSIGNATURE
+		Super Factory Manager-1.21.1-4.19.0.jar           |Super Factory Manager         |sfm                           |4.19.0              |Manifest: NOSIGNATURE
+		mcw-lights-1.1.1-mc1.21.1neoforge.jar             |Macaw's Lights and Lamps      |mcwlights                     |1.1.1               |Manifest: NOSIGNATURE
+		crafting_on_a_stick-1.21.0.1.jar                  |Crafting On A Stick           |crafting_on_a_stick           |1.21.0.1            |Manifest: NOSIGNATURE
+		SmartBrainLib-neoforge-1.21.1-1.16.1.jar          |SmartBrainLib                 |smartbrainlib                 |1.16.1              |Manifest: NOSIGNATURE
+		ae2jeiintegration-1.2.0.jar                       |AE2 JEI Integration           |ae2jeiintegration             |1.2.0               |Manifest: NOSIGNATURE
+		rechiseled-1.1.6a-neoforge-mc1.21.jar             |Rechiseled                    |rechiseled                    |1.1.6+a             |Manifest: NOSIGNATURE
+		jei-1.21.1-neoforge-19.19.0.220.jar               |Just Enough Items             |jei                           |19.19.0.220         |Manifest: NOSIGNATURE
+		lithostitched-neoforge-1.21-1.3.1a.jar            |Lithostitched                 |lithostitched                 |1.3.1a              |Manifest: NOSIGNATURE
+		Mekanism-1.21.1-10.7.7.64.jar                     |Mekanism                      |mekanism                      |10.7.7              |Manifest: NOSIGNATURE
+		laserio-1.9.11.jar                                |LaserIO                       |laserio                       |1.9.11              |Manifest: NOSIGNATURE
+		GravitationalModulatingAdditionalUnit-1.21.1-6.0.j|Gravitational Modulating Addit|gmut                          |6.0                 |Manifest: NOSIGNATURE
+		caelus-neoforge-7.0.1+1.21.1.jar                  |Caelus API                    |caelus                        |7.0.1+1.21.1        |Manifest: NOSIGNATURE
+		allthecompressed-1.21.1-4.0.0.jar                 |AllTheCompressed              |allthecompressed              |4.0.0               |Manifest: NOSIGNATURE
+		invtweaks-1.21.0-1.1.4.jar                        |Inventory Tweaks Refoxed      |invtweaks                     |1.21.0-1.1.4        |Manifest: NOSIGNATURE
+		mcw-holidays-1.1.0-mc1.21.1neoforge.jar           |Macaw's Holidays              |mcwholidays                   |1.1.0               |Manifest: NOSIGNATURE
+		NaturesCompass-1.21.1-3.0.3-neoforge.jar          |Nature's Compass              |naturescompass                |1.21.1-3.0.2-neoforg|Manifest: NOSIGNATURE
+		EpheroLib-1.21-NEO-FORGE-1.2.0.jar                |EpheroLib                     |epherolib                     |1.2.0               |Manifest: NOSIGNATURE
+		jumpboat-1.21.0-1.0.5.jar                         |Jumpy Boats                   |jumpboat                      |1.21.0-1.0.5        |Manifest: NOSIGNATURE
+		farmingforblockheads-neoforge-1.21.1-21.1.2.jar   |Farming for Blockheads        |farmingforblockheads          |21.1.2              |Manifest: NOSIGNATURE
+		pneumaticcraft-repressurized-8.1.3+mc1.21.1.jar   |PneumaticCraft: Repressurized |pneumaticcraft                |8.1.3               |Manifest: NOSIGNATURE
+		fusion-1.1.1a-neoforge-mc1.21.jar                 |Fusion                        |fusion                        |1.1.1+a             |Manifest: NOSIGNATURE
+		EdivadLib-1.21-3.0.0.jar                          |EdivadLib                     |edivadlib                     |3.0.0               |Manifest: NOSIGNATURE
+		mcw-paths-1.0.5-1.21.1neoforge.jar                |Macaw's Paths and Pavings     |mcwpaths                      |1.0.5               |Manifest: NOSIGNATURE
+		IntegratedCrafting-1.21.1-neoforge-1.1.10.jar     |IntegratedCrafting            |integratedcrafting            |1.1.10              |Manifest: NOSIGNATURE
+		ZeroCore2-1.21.1-2.4.9.jar                        |Zero CORE 2                   |zerocore                      |1.21.1-2.4.9        |Manifest: NOSIGNATURE
+		server-1.21.1-20240808.144430-srg.jar             |Minecraft                     |minecraft                     |1.21.1              |Manifest: NOSIGNATURE
+		TerraBlender-neoforge-1.21.1-4.1.0.3.jar          |TerraBlender                  |terrablender                  |4.1.0.3             |Manifest: NOSIGNATURE
+		MouseTweaks-neoforge-mc1.21-2.26.1.jar            |Mouse Tweaks                  |mousetweaks                   |2.26.1              |Manifest: NOSIGNATURE
+		NoChatReports-NEOFORGE-1.21-v2.8.0.jar            |No Chat Reports               |nochatreports                 |1.21-v2.8.0         |Manifest: NOSIGNATURE
+		allthemodium-2.7.0_mc_1.21.1.jar                  |Allthemodium                  |allthemodium                  |2.7.0               |Manifest: NOSIGNATURE
+		Oh-The-Trees-Youll-Grow-neoforge-1.21.1-5.0.3.jar |Oh The Trees You'll Grow      |ohthetreesyoullgrow           |5.0.3               |Manifest: NOSIGNATURE
+		cleanswing-1.7.jar                                |Clean Swing                   |cleanswing                    |1.7                 |Manifest: NOSIGNATURE
+		spectrelib-neoforge-0.17.2+1.21.jar               |SpectreLib                    |spectrelib                    |0.17.2+1.21         |Manifest: NOSIGNATURE
+		Corgilib-NeoForge-1.21.1-5.0.0.2.jar              |CorgiLib                      |corgilib                      |5.0.0.2             |Manifest: NOSIGNATURE
+		sushigocrafting-1.21-0.6.2.jar                    |Sushi Go Crafting             |sushigocrafting               |0.6.2               |Manifest: NOSIGNATURE
+		domum_ornamentum-1.0.203-1.21.1-snapshot.jar      |Domum Ornamentum              |domum_ornamentum              |1.0.203-1.21.1-snaps|Manifest: NOSIGNATURE
+		kffmod-5.5.0.jar                                  |Kotlin For Forge              |kotlinforforge                |5.5.0               |Manifest: NOSIGNATURE
+		pipez-neoforge-1.21.1-1.2.19.jar                  |Pipez                         |pipez                         |1.21.1-1.2.19       |Manifest: NOSIGNATURE
+		IntegratedDynamics-1.21.1-neoforge-1.23.6.jar     |IntegratedDynamics            |integrateddynamics            |1.23.6              |Manifest: NOSIGNATURE
+		megacells-4.0.2.jar                               |MEGA Cells                    |megacells                     |4.0.2               |Manifest: NOSIGNATURE
+		itemcollectors-1.1.10-neoforge-mc1.21.jar         |Item Collectors               |itemcollectors                |1.1.10              |Manifest: NOSIGNATURE
+		gravestone-neoforge-1.21.1-1.0.23.jar             |Gravestone Mod                |gravestone                    |1.21.1-1.0.23       |Manifest: NOSIGNATURE
+		Croptopia-1.21-NEO-FORGE-3.0.9.jar                |Croptopia                     |croptopia                     |3.0.7               |Manifest: NOSIGNATURE
+		polymorph-neoforge-1.0.6+1.21.1.jar               |Polymorph                     |polymorph                     |1.0.6+1.21.1        |Manifest: NOSIGNATURE
+		[1.21.1] SecurityCraft v1.9.10-beta9.jar          |SecurityCraft                 |securitycraft                 |1.9.10-beta9        |Manifest: NOSIGNATURE
+		almostunified-neoforge-1.21.1-1.1.0.jar           |AlmostUnified                 |almostunified                 |1.21.1-1.1.0        |Manifest: NOSIGNATURE
+		entityculling-neoforge-1.7.0-mc1.21.jar           |EntityCulling                 |entityculling                 |1.7.0               |Manifest: NOSIGNATURE
+		railcraft-reborn-1.21.1-1.2.2.jar                 |Railcraft Reborn              |railcraft                     |1.2.2               |Manifest: NOSIGNATURE
+		com.enderio.enderio-conduits-modded-7.0.4-alpha.ja|Ender IO Modded Conduits      |enderio_conduits_modded       |7.0.4-alpha         |Manifest: NOSIGNATURE
+		Structory_Towers_1.21_v1.0.7.jar                  |Structory: Towers             |structory_towers              |1.0.7               |Manifest: NOSIGNATURE
+		appleskin-neoforge-mc1.21-3.0.5.jar               |AppleSkin                     |appleskin                     |3.0.5+mc1.21        |Manifest: NOSIGNATURE
+		showcaseitem-1.21-1.0.0.jar                       |Showcase Item                 |showcaseitem                  |1.21-1.0.0          |Manifest: NOSIGNATURE
+		lootr-neoforge-1.21-1.10.33.82.jar                |Lootr                         |lootr                         |1.21-1.10.33.82     |Manifest: NOSIGNATURE
+		occultism-1.21.1-neoforge-1.159.7.jar             |Occultism                     |occultism                     |1.159.7             |Manifest: NOSIGNATURE
+		hyperbox-1.21-6.0.0.1.jar                         |Hyperbox                      |hyperbox                      |6.0.0.1             |Manifest: NOSIGNATURE
+		allthetweaks-1.21-2.4.4.jar                       |AllTheTweaks                  |allthetweaks                  |2.4.4               |Manifest: NOSIGNATURE
+		Aquaculture-1.21.1-2.7.10.jar                     |Aquaculture 2                 |aquaculture                   |2.7.10              |Manifest: NOSIGNATURE
+		cosmeticarmorreworked-1.21.1-v1-neoforge.jar      |CosmeticArmorReworked         |cosmeticarmorreworked         |1.21.1-v1-neoforge  |Manifest: 5e:ed:25:99:e4:44:14:c0:dd:89:c1:a9:4c:10:b5:0d:e4:b1:52:50:45:82:13:d8:d0:32:89:67:56:57:01:53
+		morered-1.21-6.0.0.2.jar                          |More Red                      |morered                       |6.0.0.2             |Manifest: NOSIGNATURE
+		cristellib-neoforge-1.2.8.jar                     |Cristel Lib                   |cristellib                    |1.2.8               |Manifest: NOSIGNATURE
+		cyclopscore-1.21.1-neoforge-1.23.0-601.jar        |Cyclops Core                  |cyclopscore                   |1.23.0              |Manifest: NOSIGNATURE
+		kuma-api-neoforge-21.0.5-SNAPSHOT.jar             |KumaAPI                       |kuma_api                      |21.0.5-SNAPSHOT     |Manifest: NOSIGNATURE
+		netherportalfix-neoforge-1.21.1-21.1.1.jar        |NetherPortalFix               |netherportalfix               |21.1.1              |Manifest: NOSIGNATURE
+		geckolib-neoforge-1.21.1-4.6.5.jar                |GeckoLib 4                    |geckolib                      |4.6.5               |Manifest: NOSIGNATURE
+		ars_nouveau-1.21.0-5.1.0-all.jar                  |Ars Nouveau                   |ars_nouveau                   |5.1.0               |Manifest: NOSIGNATURE
+		towntalk-1.2.0.jar                                |Towntalk                      |towntalk                      |1.2.0               |Manifest: NOSIGNATURE
+		pocketstorage-1.2.4+1.21.1-b40.jar                |Pocket Storage                |pocketstorage                 |1.2.4+1.21.1-b40    |Manifest: NOSIGNATURE
+		sophisticatedcore-1.21-0.6.38.698.jar             |Sophisticated Core            |sophisticatedcore             |0.6.38              |Manifest: NOSIGNATURE
+		Glassential-renewed-neoforge-1.21.1-3.1.1.jar     |Glassential-renewed           |glassential                   |3.1.1               |Manifest: NOSIGNATURE
+		cookingforblockheads-neoforge-1.21.1-21.1.2.jar   |Cooking for Blockheads        |cookingforblockheads          |21.1.2              |Manifest: NOSIGNATURE
+		Controlling-neoforge-1.21.1-19.0.3.jar            |Controlling                   |controlling                   |19.0.3              |Manifest: NOSIGNATURE
+		Placebo-1.21.1-9.5.3.jar                          |Placebo                       |placebo                       |9.5.3               |Manifest: NOSIGNATURE
+		WitherSkeletonTweaks-1.21.1-10.0.2.jar            |Wither Skeleton Tweaks        |wstweaks                      |10.0.2              |Manifest: NOSIGNATURE
+		ApothicAttributes-1.21.1-2.4.0.jar                |Apothic Attributes            |apothic_attributes            |2.4.0               |Manifest: NOSIGNATURE
+		storagedelight-24.09.11-1.21-neoforge.jar         |Storage Delight               |storagedelight                |24.09.11-1.21-neofor|Manifest: NOSIGNATURE
+		sophisticatedbackpacks-1.21-3.20.14.1105.jar      |Sophisticated Backpacks       |sophisticatedbackpacks        |3.20.14             |Manifest: NOSIGNATURE
+		relics-1.21-0.9.0.2.jar                           |Relics                        |relics                        |0.9.0.2             |Manifest: NOSIGNATURE
+		mcw-doors-1.1.1-mc1.21.1neoforge.jar              |Macaw's Doors                 |mcwdoors                      |1.1.1               |Manifest: NOSIGNATURE
+		MoreRed-CCT-Compat-1.21.1-1.1.0.jar               |More Red x CC:Tweaked Compat  |moreredxcctcompat             |1.21.1-1.1.0        |Manifest: NOSIGNATURE
+		generatorgalore-1.21.0-1.3.3.jar                  |Generator Galore              |generatorgalore               |1.21.0-1.3.3        |Manifest: NOSIGNATURE
+		MekanismGenerators-1.21.1-10.7.7.64.jar           |Mekanism: Generators          |mekanismgenerators            |10.7.7              |Manifest: NOSIGNATURE
+		GrandPower-3.0.0.jar                              |Grand Power                   |grandpower                    |3.0.0               |Manifest: NOSIGNATURE
+		utilitarian-1.21.1-0.13.2.jar                     |Utilitarian                   |utilitarian                   |1.21.1-0.13.2       |Manifest: NOSIGNATURE
+		fzzy_config-0.5.0+1.21+neoforge.jar               |Fzzy Config                   |fzzy_config                   |0.5.0+1.21+neoforge |Manifest: NOSIGNATURE
+		dummmmmmy-1.21-2.0.4-neoforge.jar                 |MmmMmmMmmMmm                  |dummmmmmy                     |1.21-2.0.4          |Manifest: NOSIGNATURE
+		chipped-neoforge-1.21.1-4.0.1.jar                 |Chipped                       |chipped                       |4.0.1               |Manifest: NOSIGNATURE
+		mcw-bridges-3.0.0-mc1.21.1neoforge.jar            |Macaw's Bridges               |mcwbridges                    |3.0.0               |Manifest: NOSIGNATURE
+		FarmersDelight-1.21-1.2.4.jar                     |Farmer's Delight              |farmersdelight                |1.2.4               |Manifest: NOSIGNATURE
+		HostileNeuralNetworks-1.21.1-6.0.1.jar            |Hostile Neural Networks       |hostilenetworks               |6.0.1               |Manifest: NOSIGNATURE
+		entangled-1.3.19-neoforge-mc1.21.jar              |Entangled                     |entangled                     |1.3.19              |Manifest: NOSIGNATURE
+		CommonCapabilities-1.21.1-neoforge-2.9.4.jar      |CommonCapabilities            |commoncapabilities            |2.9.4               |Manifest: NOSIGNATURE
+		crashutilities-9.0.1.jar                          |Crash Utilities               |crashutilities                |9.0.1               |Manifest: NOSIGNATURE
+		jearchaeology-1.21.0-1.1.5.jar                    |Just Enough Archaeology       |jearchaeology                 |1.21.0-1.1.5        |Manifest: NOSIGNATURE
+		getittogetherdrops-neoforge-1.21-1.3.2.jar        |Get It Together, Drops!       |getittogetherdrops            |1.3.2               |Manifest: NOSIGNATURE
+		mcw-fences-1.1.2-mc1.21.1neoforge.jar             |Macaw's Fences and Walls      |mcwfences                     |1.1.2               |Manifest: NOSIGNATURE
+		fuelgoeshere-1.21.0-1.1.0.jar                     |Fuel Goes Here                |fuelgoeshere                  |1.21.0-1.1.0        |Manifest: NOSIGNATURE
+		wirelesschargers-1.0.9a-neoforge-mc1.21.jar       |Wireless Chargers             |wirelesschargers              |1.0.9+a             |Manifest: NOSIGNATURE
+		simplylight-1.4.6+1.21-b53.jar                    |Simply Light                  |simplylight                   |1.4.6+1.21-b53      |Manifest: NOSIGNATURE
+		Patchouli-1.21-87-NEOFORGE.jar                    |Patchouli                     |patchouli                     |1.21-87-NEOFORGE    |Manifest: NOSIGNATURE
+		ars_additions-1.21.0-21.0.2.jar                   |Ars Additions                 |ars_additions                 |1.21.0-21.0.2       |Manifest: NOSIGNATURE
+		allthearcanistgear-1.21.1-21.0.3.jar              |All The Arcanist Gear         |allthearcanistgear            |1.21.1-21.0.3       |Manifest: NOSIGNATURE
+		blockui-1.0.190-1.21.1-snapshot.jar               |UI Library Mod                |blockui                       |1.0.190-1.21.1-snaps|Manifest: NOSIGNATURE
+		structurize-1.0.752-1.21.1-snapshot.jar           |Structurize                   |structurize                   |1.0.752-1.21.1-snaps|Manifest: NOSIGNATURE
+		multipiston-1.2.50-1.21.1-snapshot.jar            |Multi-Piston                  |multipiston                   |1.2.50-1.21.1-snapsh|Manifest: NOSIGNATURE
+		common-6.1.0.jar                                  |Time In A Bottle              |tiab                          |6.1.0               |Manifest: NOSIGNATURE
+		IntegratedTunnels-1.21.1-neoforge-1.8.28.jar      |IntegratedTunnels             |integratedtunnels             |1.8.28              |Manifest: NOSIGNATURE
+		MysticalCustomization-1.21.1-6.0.0.jar            |Mystical Customization        |mysticalcustomization         |6.0.0               |Manifest: NOSIGNATURE
+		elevatorid-neoforge-1.21.1-1.11.3.jar             |ElevatorMod                   |elevatorid                    |1.21.1-1.11.3       |Manifest: NOSIGNATURE
+		ftb-ultimine-neoforge-2101.1.1.jar                |FTB Ultimine                  |ftbultimine                   |2101.1.1            |Manifest: NOSIGNATURE
+		resourcefullib-neoforge-1.21-3.0.10.jar           |Resourceful Lib               |resourcefullib                |3.0.10              |Manifest: NOSIGNATURE
+		MekanismTools-1.21.1-10.7.7.64.jar                |Mekanism: Tools               |mekanismtools                 |10.7.7              |Manifest: NOSIGNATURE
+		deeperdarker-neoforge-1.21-1.3.2.jar              |Deeper and Darker             |deeperdarker                  |1.3.2               |Manifest: NOSIGNATURE
+		architectury-13.0.6-neoforge.jar                  |Architectury                  |architectury                  |13.0.6              |Manifest: NOSIGNATURE
+		mostructures-neoforge-1.5.0+1.21.jar              |Mo' Structures                |mostructures                  |1.5.0+1.21          |Manifest: NOSIGNATURE
+		ftb-library-neoforge-2101.1.3.jar                 |FTB Library                   |ftblibrary                    |2101.1.3            |Manifest: NOSIGNATURE
+		jamlib-neoforge-1.0.11+1.21.jar                   |JamLib                        |jamlib                        |1.0.11+1.21         |Manifest: NOSIGNATURE
+		ftb-filter-system-neoforge-21.0.0.jar             |FTB Filter System             |ftbfiltersystem               |21.0.0              |Manifest: NOSIGNATURE
+		findme-3.3.1-neoforge.jar                         |FindMe                        |findme                        |3.3.1               |Manifest: NOSIGNATURE
+		ftb-teams-neoforge-2101.1.0.jar                   |FTB Teams                     |ftbteams                      |2101.1.0            |Manifest: NOSIGNATURE
+		ftb-quests-neoforge-2101.1.0.jar                  |FTB Quests                    |ftbquests                     |2101.1.0            |Manifest: NOSIGNATURE
+		ftb-ranks-neoforge-2100.1.0.jar                   |FTB Ranks                     |ftbranks                      |2100.1.0            |Manifest: NOSIGNATURE
+		ftb-essentials-neoforge-2101.1.0.jar              |FTB Essentials                |ftbessentials                 |2101.1.0            |Manifest: NOSIGNATURE
+		accelerated-decay-neoforge-21.0.0.jar             |Accelerated Decay             |accelerateddecay              |21.0.0              |Manifest: NOSIGNATURE
+		hardenedarmadillos-1.21.0-0.1.0.jar               |Hardened Armadillos           |hardenedarmadillos            |1.21.0-0.1.0        |Manifest: NOSIGNATURE
+		cc-tweaked-1.21.1-forge-1.113.1.jar               |CC: Tweaked                   |computercraft                 |1.113.1             |Manifest: NOSIGNATURE
+		AI-Improvements-1.21-0.5.3.jar                    |AI-Improvements               |aiimprovements                |0.5.3               |Manifest: NOSIGNATURE
+		ExtremeReactors2-1.21.1-2.4.9.jar                 |Extreme Reactors              |bigreactors                   |1.21.1-2.4.9        |Manifest: NOSIGNATURE
+		ars_ocultas-1.21.0-2.0.1.jar                      |Ars Ocultas                   |ars_ocultas                   |2.0.1               |Manifest: NOSIGNATURE
+		trashcans-1.0.18a-neoforge-mc1.21.jar             |Trash Cans                    |trashcans                     |1.0.18+a            |Manifest: NOSIGNATURE
+		The_Undergarden-1.21.1-0.8.21.jar                 |The Undergarden               |undergarden                   |0.8.21              |Manifest: NOSIGNATURE
+		monolib-neoforge-1.21.1-1.3.0.jar                 |MonoLib                       |monolib                       |1.3.0               |Manifest: NOSIGNATURE
+		disenchanting_table-merged-1.21.1-3.1.0.jar       |Dis-Enchanting Table          |disenchanting_table           |3.1.0               |Manifest: NOSIGNATURE
+		justdirethings-1.4.2.jar                          |Just Dire Things              |justdirethings                |1.4.2               |Manifest: NOSIGNATURE
+		polylib-2100.0.3-build.159-neoforge.jar           |PolyLib                       |polylib                       |2100.0.3-build.159  |Manifest: NOSIGNATURE
+		shrink-2.0.0.43-neoforge.jar                      |Shrink                        |shrink                        |2.0.0.43            |Manifest: NOSIGNATURE
+		t_and_t-neoforge-fabric-1.13.2.jar                |Towns and Towers              |t_and_t                       |1.13.2              |Manifest: NOSIGNATURE
+		observable-5.4.3.jar                              |Observable                    |observable                    |5.4.3               |Manifest: NOSIGNATURE
+		letmedespawn-1.3.2.jar                            |Let Me Despawn                |letmedespawn                  |1.3.2               |Manifest: NOSIGNATURE
+		yeetusexperimentus-neoforge-87.0.0.jar            |Yeetus Experimentus           |yeetusexperimentus            |87.0.0              |Manifest: NOSIGNATURE
+		villagesandpillages-neoforge-mc1.21.1-1.0.1.jar   |Villages & Pillages           |villagesandpillages           |1.0.1               |Manifest: NOSIGNATURE
+		rhino-2101.2.5-build.54.jar                       |Rhino                         |rhino                         |2101.2.5-build.54   |Manifest: NOSIGNATURE
+		kubejs-neoforge-2101.7.0-build.171.jar            |KubeJS                        |kubejs                        |2101.7.0-build.171  |Manifest: NOSIGNATURE
+		RootsClassic-1.21.1-1.5.1.jar                     |Roots Classic                 |rootsclassic                  |1.21.1-1.5.1        |Manifest: NOSIGNATURE
+		Cucumber-1.21.1-8.0.5.jar                         |Cucumber Library              |cucumber                      |8.0.5               |Manifest: NOSIGNATURE
+		trashslot-neoforge-1.21.1-21.1.1.jar              |TrashSlot                     |trashslot                     |21.1.1              |Manifest: NOSIGNATURE
+		jmi-neoforge-1.21.1-1.6.jar                       |JourneyMap Integration        |jmi                           |1.21.1-1.6          |Manifest: NOSIGNATURE
+		blueflame-1.21.0-1.1.0.jar                        |Blue Flame Burning            |blueflame                     |1.21.0-1.1.0        |Manifest: NOSIGNATURE
+		sophisticatedstorage-1.21-0.10.37.874.jar         |Sophisticated Storage         |sophisticatedstorage          |0.10.37             |Manifest: NOSIGNATURE
+		redstonepen-1.21-neoforge-1.11.39.jar             |Redstone Pen                  |redstonepen                   |1.11.39             |Manifest: bf:30:76:97:e4:58:41:61:2a:f4:30:d3:8f:4c:e3:71:1d:14:c4:a1:4e:85:36:e3:1d:aa:2f:cb:22:b0:04:9b
+		OctoLib-NEOFORGE-0.4.2.jar                        |OctoLib                       |octolib                       |0.4.2               |Manifest: NOSIGNATURE
+		allthewizardgear-1.21-1.1.6.jar                   |All the Wizard Gear           |allthewizardgear              |1.21-1.1.6          |Manifest: NOSIGNATURE
+		additionallanterns-1.1.1-neoforge-mc1.21.jar      |Additional Lanterns           |additionallanterns            |1.1.1               |Manifest: NOSIGNATURE
+		productivelib-1.21.0-0.1.4.jar                    |Productive Lib                |productivelib                 |1.21.0-0.1.4        |Manifest: NOSIGNATURE
+		Oh-The-Biomes-Weve-Gone-NeoForge-2.1.1-Beta.jar   |Oh The Biomes We've Gone      |biomeswevegone                |2.1.1-Beta          |Manifest: NOSIGNATURE
+		common-networking-neoforge-1.0.16-1.21.jar        |Common Networking             |commonnetworking              |1.0.16-1.21         |Manifest: NOSIGNATURE
+		reap-neoforge-1.21.1-1.1.2.jar                    |Reap Mod                      |reap                          |1.21.1-1.1.2        |Manifest: NOSIGNATURE
+		waystones-neoforge-1.21.1-21.1.4.jar              |Waystones                     |waystones                     |21.1.4              |Manifest: NOSIGNATURE
+		illagerwarship-1.0.0-neoforge-1.21.1.jar          |Illager-Warship               |illagerwarship                |1.0.0               |Manifest: NOSIGNATURE
+		Structory_1.21_v1.3.5.jar                         |Structory                     |structory                     |1.3.5               |Manifest: NOSIGNATURE
+		Clumps-neoforge-1.21.1-19.0.0.1.jar               |Clumps                        |clumps                        |19.0.0.1            |Manifest: NOSIGNATURE
+		journeymap-neoforge-1.21-6.0.0-beta.25.jar        |Journeymap                    |journeymap                    |1.21-6.0.0-beta.25  |Manifest: NOSIGNATURE
+		comforts-neoforge-9.0.2+1.21.1.jar                |Comforts                      |comforts                      |9.0.2+1.21.1        |Manifest: NOSIGNATURE
+		artifacts-neoforge-12.0.5.jar                     |Artifacts                     |artifacts                     |12.0.5              |Manifest: NOSIGNATURE
+		DimStorage-1.21-9.0.2.jar                         |DimStorage                    |dimstorage                    |9.0.2               |Manifest: NOSIGNATURE
+		DungeonCrawl-NeoForge-1.21-2.3.14.jar             |Dungeon Crawl                 |dungeoncrawl                  |2.3.14              |Manifest: NOSIGNATURE
+		charginggadgets-1.14.1.jar                        |Charging Gadgets              |charginggadgets               |1.14.1              |Manifest: NOSIGNATURE
+		ExplorersCompass-1.21.1-3.0.3-neoforge.jar        |Explorer's Compass            |explorerscompass              |1.21.1-3.0.3-neoforg|Manifest: NOSIGNATURE
+		mininggadgets-1.18.6.jar                          |Mining Gadgets                |mininggadgets                 |1.18.6              |Manifest: NOSIGNATURE
+		factory_blocks+neoforge+1.21-1.3.2.jar            |Factory Blocks                |factory_blocks                |1.3.2               |Manifest: NOSIGNATURE
+		trophymanager-1.21.1-2.1.9.jar                    |Jonn's Trophies               |trophymanager                 |1.21.1-2.1.9        |Manifest: NOSIGNATURE
+		ftb-chunks-neoforge-2101.1.1.jar                  |FTB Chunks                    |ftbchunks                     |2101.1.1            |Manifest: NOSIGNATURE
+		ftb-xmod-compat-neoforge-21.1.0.jar               |FTB XMod Compat               |ftbxmodcompat                 |21.1.0              |Manifest: NOSIGNATURE
+		xycraft_core-0.7.45-all.jar                       |XyCraft Core                  |xycraft_core                  |0.7.45              |Manifest: NOSIGNATURE
+		xycraft_world-0.7.45.jar                          |XyCraft World                 |xycraft_world                 |0.7.45              |Manifest: NOSIGNATURE
+		xycraft_machines-0.7.45.jar                       |XyCraft Machines              |xycraft_machines              |0.7.45              |Manifest: NOSIGNATURE
+		xycraft_override-0.7.45.jar                       |XyCraft Override              |xycraft_override              |0.7.45              |Manifest: NOSIGNATURE
+		repeatable_trial_vaults-neoforge-1.21-1.0.2.jar   |Repeatable Trial Vaults       |repeatable_trial_vaults       |1.0.2               |Manifest: NOSIGNATURE
+		MysticalAgriculture-1.21.1-8.0.6.jar              |Mystical Agriculture          |mysticalagriculture           |8.0.6               |Manifest: NOSIGNATURE
+		MysticalAgradditions-1.21.1-8.0.0.jar             |Mystical Agradditions         |mysticalagradditions          |8.0.0               |Manifest: NOSIGNATURE
+		craftingtweaks-neoforge-1.21.1-21.1.2.jar         |Crafting Tweaks               |craftingtweaks                |21.1.2              |Manifest: NOSIGNATURE
+		moonlight-1.21-2.14.19-neoforge.jar               |Moonlight Lib                 |moonlight                     |1.21-2.14.19        |Manifest: NOSIGNATURE
+		endermanoverhaul-neoforge-1.21-2.0.0.jar          |Enderman Overhaul             |endermanoverhaul              |2.0.0               |Manifest: NOSIGNATURE
+		ApothicSpawners-1.21.1-1.1.0.jar                  |Apothic Spawners              |apothic_spawners              |1.1.0               |Manifest: NOSIGNATURE
+		com.enderio.enderio-conduits-7.0.4-alpha.jar      |Ender IO Conduits             |enderio_conduits              |7.0.4-alpha         |Manifest: NOSIGNATURE
+		ToolBelt-1.21-2.2.3.jar                           |Tool Belt                     |toolbelt                      |2.2.3               |Manifest: NOSIGNATURE
+		titanium-1.21-4.0.21.jar                          |Titanium                      |titanium                      |4.0.21              |Manifest: NOSIGNATURE
+		RegionsUnexploredNeoforge-0.5.6.1+1.21.jar        |Regions Unexplored            |regions_unexplored            |0.5.6.1             |Manifest: NOSIGNATURE
+		Jade-1.21.1-NeoForge-15.4.1.jar                   |Jade                          |jade                          |15.4.1+neoforge     |Manifest: NOSIGNATURE
+		appliedenergistics2-19.0.23-beta.jar              |Applied Energistics 2         |ae2                           |19.0.23-beta        |Manifest: NOSIGNATURE
+		aeinfinitybooster-neoforge-1.21-1.0.1.38.jar      |AEInfinityBooster             |aeinfinitybooster             |1.21-1.0.1.38       |Manifest: NOSIGNATURE
+		ae2ct-1.21.1-1.0.3-beta.jar                       |AE2:Crafting Tree             |ae2ct                         |1.21.1-1.0.3-beta   |Manifest: NOSIGNATURE
+		AE2NetworkAnalyzer-1.21-2.0.0-neoforge.jar        |AE2NetworkAnalyzer            |ae2netanalyser                |1.21-2.0.0-neoforge |Manifest: NOSIGNATURE
+		AppliedFlux-1.21-2.0.1-neoforge.jar               |AppliedFlux                   |appflux                       |1.21-2.0.1-neoforge |Manifest: NOSIGNATURE
+		merequester-neoforge-1.21.1-1.1.7.jar             |ME Requester                  |merequester                   |1.21.1-1.1.7        |Manifest: NOSIGNATURE
+		ae2wtlib-19.1.4-beta.jar                          |AE2WTLib                      |ae2wtlib                      |19.1.4-beta         |Manifest: NOSIGNATURE
+		ExtendedAE-1.21-2.0.5-neoforge.jar                |ExtendedAE                    |extendedae                    |1.21-2.0.5-neoforge |Manifest: NOSIGNATURE
+		de.mari_023.ae2wtlib_api-19.1.4-beta.jar          |AE2WTLib API                  |ae2wtlib_api                  |19.1.4-beta         |Manifest: NOSIGNATURE
+		Modern-Industrialization-2.2.24.jar               |Modern Industrialization      |modern_industrialization      |2.2.24              |Manifest: NOSIGNATURE
+		tesseract-neoforge-1.5.4-beta-1.21.1.jar          |Tesseract API                 |tesseract_api                 |1.5.4-beta-1.21.1   |Manifest: NOSIGNATURE
+		extended-industrialization-1.9.4-beta-1.21.1.jar  |Extended Industrialization    |extended_industrialization    |1.9.4-beta-1.21.1   |Manifest: NOSIGNATURE
+		AdvancedAE-0.5.2-1.21.1.jar                       |Advanced AE                   |advanced_ae                   |0.5.2-1.21.1        |Manifest: NOSIGNATURE
+		forbidden_arcanus-1.21.1-2.5.4-beta.jar           |Forbidden Arcanus             |forbidden_arcanus             |2.5.4-beta          |Manifest: NOSIGNATURE
+		com.enderio.enderio-armory-7.0.4-alpha.jar        |Ender IO Armory               |enderio_armory                |7.0.4-alpha         |Manifest: NOSIGNATURE
+		theurgy-1.21.1-neoforge-1.56.0.jar                |Theurgy                       |theurgy                       |1.56.0              |Manifest: NOSIGNATURE
+		enderio-7.0.4-alpha.jar                           |Ender IO                      |enderio                       |7.0.4-alpha         |Manifest: NOSIGNATURE
+		easy-villagers-neoforge-1.21.1-1.1.23.jar         |Easy Villagers                |easy_villagers                |1.21.1-1.1.23       |Manifest: NOSIGNATURE
+		polyeng-0.4.1.jar                                 |Polymorphic Energistics       |polyeng                       |0.4.1               |Manifest: NOSIGNATURE
+		FastWorkbench-1.21-9.1.2.jar                      |Fast Workbench                |fastbench                     |9.1.2               |Manifest: NOSIGNATURE
+		Nullscape_1.21.x_v1.2.8.jar                       |Nullscape                     |nullscape                     |1.2.8               |Manifest: NOSIGNATURE
+		ars_elemental-1.21.0-0.7.0.5.jar                  |Ars Elemental                 |ars_elemental                 |1.21.0-0.7.0.5      |Manifest: NOSIGNATURE
+		irons_spellbooks-1.21-3.6.2.jar                   |Iron's Spells 'n Spellbooks   |irons_spellbooks              |1.21-3.6.2          |Manifest: NOSIGNATURE
+		buildinggadgets2-1.3.7.jar                        |Building Gadgets 2            |buildinggadgets2              |1.3.7               |Manifest: NOSIGNATURE
+		modonomicon-1.21.1-neoforge-1.106.1.jar           |Modonomicon                   |modonomicon                   |1.106.1             |Manifest: NOSIGNATURE
+		minecolonies-1.1.711-1.21.1-snapshot.jar          |MineColonies                  |minecolonies                  |1.1.711-1.21.1-snaps|Manifest: NOSIGNATURE
+		pylons-1.21.1-5.0.2.jar                           |Pylons                        |pylons                        |5.0.2               |Manifest: NOSIGNATURE
+		Creeperoverhaul-neoforge-1.21-4.0.5.jar           |Creeper Overhaul              |creeperoverhaul               |4.0.5               |Manifest: NOSIGNATURE
+		ferritecore-7.0.0-neoforge.jar                    |Ferrite Core                  |ferritecore                   |7.0.0               |Manifest: 41:ce:50:66:d1:a0:05:ce:a1:0e:02:85:9b:46:64:e0:bf:2e:cf:60:30:9a:fe:0c:27:e0:63:66:9a:84:ce:8a
+		chisel-neoforge-1.21.1-1.8.1.jar                  |Chisel Reborn                 |chisel                        |1.8.1               |Manifest: NOSIGNATURE
+		functionalstorage-1.21.1-1.3.3.jar                |Functional Storage            |functionalstorage             |1.21.1-1.3.3        |Manifest: NOSIGNATURE
+		modular-routers-13.0.3+mc1.21.jar                 |Modular Routers               |modularrouters                |13.0.3              |Manifest: NOSIGNATURE
+		Applied-Mekanistics-1.6.1.jar                     |Applied Mekanistics           |appmek                        |1.6.1               |Manifest: NOSIGNATURE
+		expandability-neoforge-12.0.0.jar                 |ExpandAbility                 |expandability                 |12.0.0              |Manifest: NOSIGNATURE
+		valhelsia_core-neoforge-1.21-1.1.3.jar            |Valhelsia Core                |valhelsia_core                |1.1.3               |Manifest: NOSIGNATURE
+		overloadedarmorbar-neoforge-1.21-2.jar            |OverloadedArmorBar            |overloadedarmorbar            |2                   |Manifest: NOSIGNATURE
+		xtonesreworked-1.0.3-NF-1.21_21.0.0-beta.jar      |XTones Reworked               |xtonesreworked                |1.0.3               |Manifest: NOSIGNATURE
+		flickerfix-1.21.0.jar                             |FlickerFix                    |flickerfix                    |4.0.1               |Manifest: NOSIGNATURE
+		productivetrees-1.21.1-0.5.2.jar                  |Productive Trees              |productivetrees               |1.21.1-0.5.2        |Manifest: NOSIGNATURE
+		productivebees-1.21.1-13.5.3.jar                  |Productive Bees               |productivebees                |1.21.1-13.5.3       |Manifest: NOSIGNATURE
+	Crash Report UUID: 25ab24f9-1658-4d8f-8f98-4f7795f02192
+	FML: 4.0.24
+	NeoForge: 21.1.61
